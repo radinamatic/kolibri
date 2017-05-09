@@ -23,22 +23,19 @@ This is the default view when you select a class from the **Coach** dashboard. I
 .. image:: img/coach-recent.png
   :alt: coach recent activity
 
-If the class learners have access to more then one channel, you will first see the list of channels which you can navigate by topics and subtopics untill you arrive to a specific item. In this view you can see the progress of each class learner for that specific item.
+If the class learners have access to more then one channel, you will first see the list of channels which you can navigate by topics and subtopics until you arrive to a specific item. In this view you can see the progress of each class learner for that specific item.
 
 .. image:: img/recent-item-exercise.png
   :alt: item recent activity
+
+.. TODO - still undecided if the exercise & resource column will be integrated in one
 
 .. _topic_view:
 
 Full Activity View
 ~~~~~~~~~~~~~~~~~~~~
 
-Use this view to access the full list of topics for the selected Kolibri channel, structured the same way as in Explore view.  
-
-.. image:: img/coach_reports_topic.png
-  :alt: coach reports activity by topic view
-
-
+Use this view to access the full history of progress for all the learners in the class. You can navigate by channels, topics and subtopics to see the progress of each class learner for a specific item.  
 
 
 
