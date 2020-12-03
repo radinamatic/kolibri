@@ -19,3 +19,6 @@ Feature: Admin deletes users
   Scenario: Try (and fail) to delete your own account
     When I click on *Options* button for my own account
     Then I see that the *Delete* option is not active
+
+
+CHANGES
