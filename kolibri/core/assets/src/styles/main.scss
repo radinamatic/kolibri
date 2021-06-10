@@ -1,0 +1,84 @@
+/*
+  Styles defined in this file are attached to the document head, and
+  apply globally to everything in the document. They are added after
+  normalize.css.
+
+  Concrete styles defined here affect everything on the page.
+
+  Abstract scss variables and functions defined here are
+  not available to vue components. Those should be added to
+  definitions.scss.
+*/
+
+@import 'definitions';
+
+// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: auto; // fixes #3318, even though 'scroll' might be preferable
+  font-size: 100%; // https://davidwalsh.name/html5-boilerplate
+  line-height: 1.4;
+  text-size-adjust: 100%; // from normalize v5
+}
+
+html,
+body {
+  letter-spacing: 0.01em;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  @include font-family-noto;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.17em;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+
+// https://davidwalsh.name/html5-boilerplate
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.visuallyhidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
+}
+
+.rtl-icon {
+  transform: scaleX(-1);
+}
+
+// TODO: move this inside scoped styles in forked UiIcon component
+.ui-icon {
+  svg {
+    vertical-align: middle;
+  }
+}

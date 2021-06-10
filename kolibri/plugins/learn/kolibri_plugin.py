@@ -1,31 +1,78 @@
-from __future__ import absolute_import, print_function, unicode_literals
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
 
-from django.utils.translation import ugettext_lazy as _
+from django.urls import reverse
+
+from kolibri.core.auth.constants.user_kinds import ANONYMOUS
+from kolibri.core.auth.constants.user_kinds import LEARNER
+from kolibri.core.content.hooks import ContentNodeDisplayHook
+from kolibri.core.device.utils import allow_learner_unassigned_resource_access
+from kolibri.core.device.utils import get_device_setting
+from kolibri.core.device.utils import is_landing_page
+from kolibri.core.device.utils import LANDING_PAGE_LEARN
 from kolibri.core.hooks import NavigationHook
+from kolibri.core.hooks import RoleBasedRedirectHook
 from kolibri.core.webpack import hooks as webpack_hooks
-from kolibri.plugins.base import KolibriPluginBase
-
-from . import hooks, urls
-
-
-class LearnPlugin(KolibriPluginBase):
-    def url_module(self):
-        return urls
-
-    def url_slug(self):
-        return "^learn/"
+from kolibri.plugins import KolibriPluginBase
+from kolibri.plugins.hooks import register_hook
+from kolibri.utils import conf
 
 
-class LearnAsset(webpack_hooks.WebpackBundleHook):
-    unique_slug = "learn_module"
-    src_file = "kolibri/plugins/learn/assets/src/learn.js"
-    static_dir = "kolibri/plugins/learn/static"
+class Learn(KolibriPluginBase):
+    untranslated_view_urls = "api_urls"
+    translated_view_urls = "urls"
+    kolibri_options = "options"
 
 
-class LearnInclusionHook(hooks.LearnSyncHook):
-    bundle_class = LearnAsset
+@register_hook
+class LearnRedirect(RoleBasedRedirectHook):
+    @property
+    def roles(self):
+        if is_landing_page(LANDING_PAGE_LEARN):
+            return (ANONYMOUS, LEARNER)
+
+        return (LEARNER,)
+
+    @property
+    def url(self):
+        return self.plugin_url(Learn, "learn")
 
 
+@register_hook
 class LearnNavItem(NavigationHook):
-    label = _("Learn!")
-    url = '#'
+    bundle_id = "side_nav"
+
+
+@register_hook
+class LearnAsset(webpack_hooks.WebpackBundleHook):
+    bundle_id = "app"
+
+    @property
+    def plugin_data(self):
+        return {
+            "allowGuestAccess": get_device_setting("allow_guest_access"),
+            "allowLearnerUnassignedResourceAccess": allow_learner_unassigned_resource_access(),
+            "enableCustomChannelNav": conf.OPTIONS["Learn"][
+                "ENABLE_CUSTOM_CHANNEL_NAV"
+            ],
+        }
+
+
+@register_hook
+class LearnContentNodeHook(ContentNodeDisplayHook):
+    def node_url(self, node):
+        kind_slug = None
+        if not node.parent:
+            kind_slug = ""
+        elif node.kind == "topic":
+            kind_slug = "t/"
+        else:
+            kind_slug = "c/"
+        if kind_slug is not None:
+            return (
+                reverse("kolibri:kolibri.plugins.learn:learn")
+                + "#/topics/"
+                + kind_slug
+                + node.id
+            )

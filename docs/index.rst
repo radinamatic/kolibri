@@ -1,32 +1,35 @@
-Using Kolibri
-=============
 
-If you're planning on using Kolibri, but you're not a developer, this is where you should look!
-We'll fill this in as we develop Kolibri more... we promise!
+
+Kolibri developer documentation
+===============================
+
+These docs are for software developers wishing to contribute to Kolibri. If you are looking for help installing, configuring and using Kolibri, please refer to the `User Guide <https://kolibri.readthedocs.io/>`__.
+
+
+What is Kolibri?
+----------------
+
+`Kolibri <https://learningequality.org/kolibri/>`__ is the offline learning platform
+from `Learning Equality <https://learningequality.org/>`__. It is `available for download <https://learningequality.org/download/>`__ from our website. The code is `hosted on Github <https://github.com/learningequality/kolibri/>`__ and MIT-licensed.
+
+You can ask questions, make suggestions, and report issues in the `community forums <https://community.learningequality.org/>`__. If you have found a bug and are comfortable using Github and Markdown, you can create a `Github issue <https://github.com/learningequality/kolibri/issues>`__ following the instructions in the issue template.
+
+
+Table of contents
+-----------------
 
 .. toctree::
-   :maxdepth: 1
+  :maxdepth: 2
 
-   user_guide/index
-
-For Developers
-==============
-
-.. include:: ../README.rst
-
-.. include:: ../TODO.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   installation
-   dev/building
-   dev/plugins
-   dev/uap
-   dev/user_management
-   cli
-   contributing
-   authors
-   changelog
-   todo
-   modules
+  contributing/index
+  getting_started
+  stack
+  frontend_architecture/index
+  backend_architecture/index
+  dataflow/index
+  development_workflow
+  build_system/index
+  release_process
+  i18n
+  manual_testing/index
+  changelog

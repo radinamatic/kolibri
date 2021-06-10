@@ -1,5 +1,9 @@
 -r base.txt
 
 # These are for building the docs
-sphinx
-sphinx_rtd_theme
+sphinx==2.4.4
+sphinx-intl==2.0.1
+sphinx-rtd-theme==0.5.2
+sphinx-autobuild==0.7.1
+m2r==0.2.1
+sphinx-notfound-page==0.6

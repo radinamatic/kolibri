@@ -1,7 +1,5 @@
 from django.conf.urls import url
 
-from . import views
+from .views import LearnView
 
-urlpatterns = [
-    url('^', views.LearnView.as_view(), name='learn'),
-]
+urlpatterns = [url(r"^$", LearnView.as_view(), name="learn")]

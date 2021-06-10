@@ -1,0 +1,15 @@
+learner-sign-in.feature
+learner-change-profile-information.feature
+learner-change-language.feature
+learner-engage-content-recommended.feature
+learner-engage-content-channels.feature
+learner-find-content-item.feature
+learner-close-and-reopen-content.feature
+learner-engage-lesson.feature
+learner-engage-quiz.feature
+learner-engage-epub-content.feature
+learner-engage-slideshow.feature
+learner-engage-video-transcript.feature
+learner-background-tab.feature
+learner-sign-out.feature
+learner-profile-update-notification.feature

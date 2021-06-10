@@ -10,51 +10,72 @@ module?
 
 Anyways, for now to get hooks started, we have some defined here...
 """
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
 
-from __future__ import absolute_import, print_function, unicode_literals
+from abc import abstractproperty
 
-import logging
-
+from kolibri.core.webpack.hooks import WebpackBundleHook
+from kolibri.core.webpack.hooks import WebpackInclusionASyncMixin
+from kolibri.core.webpack.hooks import WebpackInclusionSyncMixin
+from kolibri.plugins.hooks import define_hook
 from kolibri.plugins.hooks import KolibriHook
-
-logger = logging.getLogger(__name__)
-
-
-class NavigationHook(KolibriHook):
-
-    # : A string label for the menu item
-    label = "Untitled"
-
-    # : A string or lazy proxy for the url
-    url = "/"
-
-    def get_menu(self):
-        menu = {}
-        for hook in self.registered_hooks:
-            menu[hook.label] = self.url
-        return menu
-
-    class Meta:
-
-        abstract = True
+from kolibri.plugins.utils import plugin_url
 
 
-class UserNavigationHook(KolibriHook):
+@define_hook
+class NavigationHook(WebpackBundleHook):
+
+    # Set this to True so that the resulting frontend code will be rendered inline.
+    inline = True
+
+
+@define_hook
+class RoleBasedRedirectHook(KolibriHook):
+    # User role to redirect for
+    @abstractproperty
+    def roles(self):
+        pass
+
+    # URL to redirect to
+    @abstractproperty
+    def url(self):
+        pass
+
+    def plugin_url(self, plugin_class, url_name):
+        return plugin_url(plugin_class, url_name)
+
+
+@define_hook
+class FrontEndBaseSyncHook(WebpackInclusionSyncMixin):
     """
-    A hook for adding navigation items to the user menu.
+    Inherit a hook defining assets to be loaded in kolibri/base.html, that means
+    ALL pages. Use with care.
     """
-    # : A string label for the menu item
-    label = "Untitled"
 
-    # : A string or lazy proxy for the url
-    url = "/"
 
-    def get_menu(self):
-        menu = {}
-        for hook in self.registered_hooks:
-            menu[hook.label] = self.url
-        return menu
+@define_hook
+class FrontEndBaseASyncHook(WebpackInclusionASyncMixin):
+    """
+    Inherit a hook defining assets to be loaded in kolibri/base.html, that means
+    ALL pages. Use with care.
+    """
 
-    class Meta:
 
-        abstract = True
+@define_hook(only_one_registered=True)
+class LogoutRedirectHook(KolibriHook):
+    """
+    A hook to enable the OIDC client
+    """
+
+    @classmethod
+    def is_enabled(cls):
+        return len(list(cls.registered_hooks)) == 1
+
+    @abstractproperty
+    def url(self):
+        """
+        A property to be overriden by the class using this hook to provide the needed url to redirect
+        """
+        pass

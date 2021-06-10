@@ -1,0 +1,235 @@
+<template>
+
+  <KPageContainer>
+
+    <p>
+      <KRouterLink
+        v-if="userIsMultiFacilityAdmin"
+        :to="facilityPageLinks.AllFacilitiesPage"
+        icon="back"
+        :text="coreString('allFacilitiesLabel')"
+      />
+    </p>
+    <KGrid>
+      <KGridItem
+        :layout8="{ span: 6 }"
+        :layout12="{ span: 9 }"
+      >
+        <h1>{{ coreString('classesLabel') }}</h1>
+        <p>{{ $tr('adminClassPageSubheader') }}</p>
+      </KGridItem>
+      <KGridItem
+        :layout="{ alignment: 'right' }"
+        :layout8="{ span: 2 }"
+        :layout12="{ span: 3 }"
+      >
+        <KButton
+          :text="$tr('addNew')"
+          :primary="true"
+          class="move-down"
+          @click="displayModal(Modals.CREATE_CLASS)"
+        />
+      </KGridItem>
+    </KGrid>
+
+    <CoreTable>
+      <caption class="visuallyhidden">
+        {{ $tr('tableCaption') }}
+      </caption>
+      <template #headers>
+        <th>{{ coreString('classNameLabel') }}</th>
+        <th>{{ coreString('coachesLabel') }}</th>
+        <th>{{ coreString('learnersLabel') }}</th>
+        <th>
+          <span class="visuallyhidden">
+            {{ $tr('actions') }}
+          </span>
+        </th>
+      </template>
+      <template #tbody>
+        <transition-group tag="tbody" name="list">
+          <tr
+            v-for="classroom in sortedClassrooms"
+            :key="classroom.id"
+          >
+            <td>
+              <KRouterLink
+                :text="classroom.name"
+                :to="classEditLink(classroom.id)"
+                icon="classes"
+              />
+            </td>
+            <td>
+              <span :ref="`coachNames${classroom.id}`">
+                <template v-if="coachNames(classroom).length">
+                  {{ formattedCoachNames(classroom) }}
+                </template>
+                <KEmptyPlaceholder v-else />
+              </span>
+              <KTooltip
+                v-if="formattedCoachNamesTooltip(classroom)"
+                :reference="`coachNames${classroom.id}`"
+                :refs="$refs"
+              >
+                {{ formattedCoachNamesTooltip(classroom) }}
+              </KTooltip>
+            </td>
+
+            <td>
+              {{ $formatNumber(classroom.learner_count) }}
+            </td>
+            <td class="core-table-button-col">
+              <KButton
+                appearance="flat-button"
+                :text="$tr('deleteClass')"
+                @click="openDeleteClassModal(classroom)"
+              />
+            </td>
+          </tr>
+        </transition-group>
+      </template>
+    </CoreTable>
+
+    <p v-if="noClassesExist">
+      {{ $tr('noClassesExist') }}
+    </p>
+
+    <ClassDeleteModal
+      v-if="modalShown === Modals.DELETE_CLASS"
+      :classid="classForDeletion.id"
+      :classname="classForDeletion.name"
+      @cancel="closeModal"
+      @success="handleDeleteSuccess()"
+    />
+    <ClassCreateModal
+      v-if="modalShown === Modals.CREATE_CLASS"
+      :classes="sortedClassrooms"
+      @cancel="closeModal"
+      @success="handleCreateSuccess()"
+    />
+
+  </KPageContainer>
+
+</template>
+
+
+<script>
+
+  import { mapState, mapActions, mapGetters } from 'vuex';
+  import CoreTable from 'kolibri.coreVue.components.CoreTable';
+  import orderBy from 'lodash/orderBy';
+  import cloneDeep from 'lodash/cloneDeep';
+  import commonCoreStrings from 'kolibri.coreVue.mixins.commonCoreStrings';
+  import { Modals } from '../../constants';
+  import ClassCreateModal from './ClassCreateModal';
+  import ClassDeleteModal from './ClassDeleteModal';
+
+  export default {
+    name: 'ManageClassPage',
+    metaInfo() {
+      return {
+        title: this.coreString('classesLabel'),
+      };
+    },
+    components: {
+      CoreTable,
+      ClassCreateModal,
+      ClassDeleteModal,
+    },
+    mixins: [commonCoreStrings],
+    data() {
+      return { classForDeletion: null };
+    },
+    computed: {
+      ...mapState('classManagement', ['modalShown', 'classes']),
+      ...mapGetters(['userIsMultiFacilityAdmin', 'facilityPageLinks']),
+      noClassesExist() {
+        return this.classes.length === 0;
+      },
+      Modals: () => Modals,
+      sortedClassrooms() {
+        return orderBy(this.classes, [classroom => classroom.name.toUpperCase()], ['asc']);
+      },
+    },
+    methods: {
+      ...mapActions('classManagement', ['displayModal']),
+      closeModal() {
+        this.displayModal(false);
+      },
+      handleCreateSuccess() {
+        this.closeModal();
+        this.refreshCoreFacilities();
+      },
+      handleDeleteSuccess() {
+        this.closeModal();
+        this.classForDeletion = null;
+        this.refreshCoreFacilities();
+      },
+      refreshCoreFacilities() {
+        if (this.userIsMultiFacilityAdmin) {
+          // Update the core facilities object to update classroom number
+          this.$store.dispatch('getFacilities');
+        }
+      },
+      // Duplicated in class-list-page
+      coachNames(classroom) {
+        const { coaches } = classroom;
+        return coaches.map(({ full_name }) => full_name);
+      },
+      formattedCoachNames(classroom) {
+        const coach_names = this.coachNames(classroom);
+        if (coach_names.length === 1) {
+          return coach_names[0];
+        }
+        if (coach_names.length === 2) {
+          return this.$tr('twoCoachNames', {
+            name1: coach_names[0],
+            name2: coach_names[1],
+          });
+        }
+        return this.$tr('manyCoachNames', {
+          name1: coach_names[0],
+          name2: coach_names[1],
+          numRemaining: coach_names.length - 2,
+        });
+      },
+      formattedCoachNamesTooltip(classroom) {
+        const coach_names = this.coachNames(classroom);
+        if (coach_names.length > 2) {
+          return coach_names.join('\n');
+        }
+        return null;
+      },
+      classEditLink(classId) {
+        const link = cloneDeep(this.facilityPageLinks.ClassEditPage);
+        link.params.id = classId;
+        return link;
+      },
+      openDeleteClassModal(classModel) {
+        this.classForDeletion = classModel;
+        this.displayModal(Modals.DELETE_CLASS);
+      },
+    },
+    $trs: {
+      adminClassPageSubheader: 'View and manage your classes',
+      addNew: 'New class',
+      deleteClass: 'Delete class',
+      tableCaption: 'List of classes',
+      twoCoachNames: '{name1}, {name2}',
+      manyCoachNames: '{name1}, {name2}… (+{numRemaining, number})',
+      actions: 'Actions',
+      noClassesExist: 'No classes exist',
+    },
+  };
+
+</script>
+
+
+<style lang="scss" scoped>
+
+  .move-down {
+    position: relative;
+    margin-top: 24px;
+  }
+
+</style>

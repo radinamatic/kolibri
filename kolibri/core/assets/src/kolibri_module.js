@@ -4,9 +4,14 @@
  * @module kolibriModule
  */
 
-const Kolibri = require('kolibri');
+import coreApp from 'kolibri';
+import urls from 'kolibri.urls';
+import setWebpackPublicPath from './utils/setWebpackPublicPath';
 
-module.exports = class KolibriModule {
+// Do this to set a public path for this module
+setWebpackPublicPath(urls);
+
+export default class KolibriModule {
   /**
    * An array of options to select from the options object passed into the constructor.
    * @type {string[]}
@@ -15,22 +20,19 @@ module.exports = class KolibriModule {
     return [];
   }
   /**
-  * The constructor function for the base KolibriModule object.
-  * @param {object} options - an options hash to set properties of the object.
-  * @param {Array} args - any additional arguments that will be passed to initialize.
-  * @constructor
-  */
+   * The constructor function for the base KolibriModule object.
+   * @param {object} options - an options hash to set properties of the object.
+   * @param {Array} args - any additional arguments that will be passed to initialize.
+   * @constructor
+   */
   constructor(options, ...args) {
     /* eslint-disable no-undef */
     // __kolibriModuleName is replaced during webpack compilation with the name derived from
-    // the Python module name and the name of the class that defines the frontend kolibriModule.
+    // the unique_slug that is defined on the class that defines the frontend kolibriModule.
     this.name = __kolibriModuleName;
-    // Insert the event hashes defined in the Python code.
-    this.events = __events;
-    this.once = __once;
     /* eslint-enable no-undef */
     const safeOptions = {};
-    this.kolibriModuleOptions.forEach((option) => {
+    this.kolibriModuleOptions.forEach(option => {
       if (options[option]) {
         safeOptions[option] = options[option];
       }
@@ -43,12 +45,12 @@ module.exports = class KolibriModule {
   }
 
   /**
-   * Method to automatically register the kolibriModule with the Koliri core app once it has
+   * Method to automatically register the kolibriModule with the Kolibri core app once it has
    * initialized.
    * @private
    */
   _registerKolibriModule() {
-    Kolibri.registerKolibriModuleSync(this);
+    coreApp.registerKolibriModuleSync(this);
   }
 
   /**
@@ -56,16 +58,14 @@ module.exports = class KolibriModule {
    * constructor.
    * Useful for setting up the kolibriModule before it is registered against the Kolibri core app.
    */
-  initialize() {
-  }
+  initialize() {}
 
   /**
    * A dummy ready function
    * Useful for initiating behaviour of the kolibriModule after it is registered against the
    * Kolibri core app.
    */
-  ready() {
-  }
+  ready() {}
 
   /**
    * Convenience method to unregister the kolibriModule from listening to certain events.
@@ -73,7 +73,7 @@ module.exports = class KolibriModule {
    * @param {string} method - the name of the method to unbind
    */
   stopListening(event, method) {
-    Kolibri.stopListening(event, this, method);
+    coreApp.stopListening(event, this, method);
   }
 
   /**
@@ -82,6 +82,9 @@ module.exports = class KolibriModule {
    * @param {Array} args - additional arguments to the event handler.
    */
   emit(...args) {
-    Kolibri.emit.apply(Kolibri, args);
+    coreApp.emit(...args);
   }
-};
+  get Kolibri() {
+    return coreApp;
+  }
+}

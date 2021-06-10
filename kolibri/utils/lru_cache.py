@@ -1,11 +1,5 @@
-"""
-Utility for Py2k compatibility
-
-DO NOT IMPORT OUTSIDE DEPENDENCIES IN HERE
-"""
-
-try:  # noqa
-    from functools import lru_cache  # noqa @UnusedImport
+try:  # NOQA
+    from functools import lru_cache  # NOQA @UnusedImport
 
 except ImportError:
     # backport of Python's 3.3 lru_cache, written by Raymond Hettinger and
@@ -20,31 +14,38 @@ except ImportError:
     _CacheInfo = namedtuple("CacheInfo", ["hits", "misses", "maxsize", "currsize"])
 
     class _HashedSeq(list):
-        __slots__ = 'hashvalue'
+        __slots__ = "hashvalue"
 
-        def __init__(self, tup, hsh=hash):
+        def __init__(self, tup, hash=hash):  # NOQA @ReservedAssignment
             self[:] = tup
-            self.hashvalue = hsh(tup)
+            self.hashvalue = hash(tup)
 
         def __hash__(self):
             return self.hashvalue
 
-    def _make_key(args, kwds, typed,
-                  kwd_mark=(object(),),
-                  fasttypes={int, str, frozenset, type(None)},
-                  srted=sorted, tple=tuple, tpe=type, ln=len):
-        'Make a cache key from optionally typed positional and keyword arguments'
+    def _make_key(
+        args,
+        kwds,
+        typed,
+        kwd_mark=(object(),),
+        fasttypes={int, str, frozenset, type(None)},
+        sorted=sorted,
+        tuple=tuple,
+        type=type,
+        len=len,
+    ):  # NOQA @ReservedAssignment
+        "Make a cache key from optionally typed positional and keyword arguments"
         key = args
         if kwds:
-            sorted_items = srted(kwds.items())
+            sorted_items = sorted(kwds.items())
             key += kwd_mark
             for item in sorted_items:
                 key += item
         if typed:
-            key += tple(tpe(v) for v in args)
+            key += tuple(type(v) for v in args)
             if kwds:
-                key += tple(tpe(v) for __, v in sorted_items)
-        elif ln(key) == 1 and tpe(key[0]) in fasttypes:
+                key += tuple(type(v) for __, v in sorted_items)
+        elif len(key) == 1 and type(key[0]) in fasttypes:
             return key[0]
         return _HashedSeq(key)
 
@@ -70,26 +71,35 @@ except ImportError:
         # Users should only access the lru_cache through its public API:
         #       cache_info, cache_clear, and f.__wrapped__
         # The internals of the lru_cache are encapsulated for thread safety and
-        # to allow the implementation to change (including a possible C version).
+        # to allow the implementation to change (including a possible C
+        # version).
 
         def decorating_function(user_function):
 
             cache = dict()
-            stats = [0, 0]                  # make statistics updateable non-locally
-            HITS, MISSES = 0, 1             # names for the stats fields
+            # make statistics updateable non-locally
+            stats = [0, 0]
+            HITS, MISSES = 0, 1  # names for the stats fields
             make_key = _make_key
-            cache_get = cache.get           # bound method to lookup key or return None
-            _len = len                      # localize the global len() function
-            lock = RLock()                  # because linkedlist updates aren't threadsafe
-            root = []                       # root of the circular doubly linked list
-            root[:] = [root, root, None, None]      # initialize by pointing to self
-            nonlocal_root = [root]                  # make updateable non-locally
-            PREV, NEXT, KEY, RESULT = 0, 1, 2, 3    # names for the link fields
+            # bound method to lookup key or return None
+            cache_get = cache.get
+            # localize the global len() function
+            _len = len
+            # because linkedlist updates aren't threadsafe
+            lock = RLock()
+            # root of the circular doubly linked list
+            root = []
+            # initialize by pointing to self
+            root[:] = [root, root, None, None]
+            # make updateable non-locally
+            nonlocal_root = [root]
+            PREV, NEXT, KEY, RESULT = 0, 1, 2, 3  # names for the link fields
 
             if maxsize == 0:
 
                 def wrapper(*args, **kwds):
-                    # no caching, just do a statistics update after a successful call
+                    # no caching, just do a statistics update after a
+                    # successful call
                     result = user_function(*args, **kwds)
                     stats[MISSES] += 1
                     return result
@@ -99,7 +109,8 @@ except ImportError:
                 def wrapper(*args, **kwds):
                     # simple caching without ordering or size limit
                     key = make_key(args, kwds, typed)
-                    result = cache_get(key, root)   # root used here as a unique not-found sentinel
+                    # root used here as a unique not-found sentinel
+                    result = cache_get(key, root)
                     if result is not root:
                         stats[HITS] += 1
                         return result
@@ -116,8 +127,9 @@ except ImportError:
                     with lock:
                         link = cache_get(key)
                         if link is not None:
-                            # record recent use of the key by moving it to the front of the list
-                            root, = nonlocal_root
+                            # record recent use of the key by moving it to the
+                            # front of the list
+                            (root,) = nonlocal_root
                             link_prev, link_next, key, result = link
                             link_prev[NEXT] = link_next
                             link_next[PREV] = link_prev
@@ -129,7 +141,7 @@ except ImportError:
                             return result
                     result = user_function(*args, **kwds)
                     with lock:
-                        root, = nonlocal_root
+                        (root,) = nonlocal_root
                         if key in cache:
                             # getting here means that this same key was added to the
                             # cache while the lock was released.  since the link
@@ -144,6 +156,7 @@ except ImportError:
                             # empty the oldest link and make it the new root
                             root = nonlocal_root[0] = oldroot[NEXT]
                             oldkey = root[KEY]
+                            # oldvalue = root[RESULT]
                             root[KEY] = root[RESULT] = None
                             # now update the cache dictionary for the new links
                             del cache[oldkey]
