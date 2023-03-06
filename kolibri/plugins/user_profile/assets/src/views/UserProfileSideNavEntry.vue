@@ -22,10 +22,7 @@
       CoreMenuOption,
     },
     $trs: {
-      profile: {
-        message: 'Profile',
-        context: 'Option in the sidebar menu for the user to open the page with their profile.',
-      },
+      profile: 'Profile',
     },
     computed: {
       url() {

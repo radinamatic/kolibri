@@ -120,7 +120,7 @@ const coachStrings = createTranslator('CommonCoachStrings', {
   detailsLabel: {
     message: 'Details',
     context:
-      'Can refer to the details of the quiz that the coach is creating. For example, the title and the number of questions.',
+      'Visually hidden label for the section that contains detailed interaction reports for each resource in the lesson or a quiz.',
   },
   difficultQuestionsLabel: {
     message: 'Difficult questions',

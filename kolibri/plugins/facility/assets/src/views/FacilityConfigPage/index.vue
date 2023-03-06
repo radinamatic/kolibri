@@ -404,14 +404,8 @@
         context: "Option on 'Facility settings' page.\n",
       },
       /* eslint-enable kolibri/vue-no-unused-translations */
-      saveFailure: {
-        message: 'There was a problem saving your settings',
-        context: 'Status report after the facility change operation.',
-      },
-      saveSuccess: {
-        message: 'Facility settings updated',
-        context: 'Status report after the facility change operation.',
-      },
+      saveFailure: 'There was a problem saving your settings',
+      saveSuccess: 'Facility settings updated',
       pageDescription: {
         message: 'Configure facility settings here.',
         context: 'Interpret as "[You can] configure facility settings here"',

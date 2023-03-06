@@ -273,10 +273,7 @@
         message: 'Powered by Kolibri',
         context: 'Indicates that Kolibri is the technology behind this application.',
       },
-      whatsThis: {
-        message: "What's this?",
-        context: 'Link with explanation of the authentication process.',
-      },
+      whatsThis: "What's this?",
       restrictedAccess: {
         message: 'Access to Kolibri has been restricted for external devices',
         context: 'Error message description.',

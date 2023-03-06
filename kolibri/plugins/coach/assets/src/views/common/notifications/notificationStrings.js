@@ -19,7 +19,7 @@ const nStrings = createTranslator('NotificationStrings', {
   // started
   individualStarted: {
     message: `{learnerName} started '{itemName}'`,
-    context: 'Indicates that a learner has started a lesson.',
+    context: 'Indicates that a learner has started a lesson or resource.',
   },
   individualStartedMissing: {
     message: `{learnerName} started a resource in this lesson`,
@@ -27,7 +27,8 @@ const nStrings = createTranslator('NotificationStrings', {
   },
   multipleStarted: {
     message: `{learnerName} and {numOthers, number} {numOthers, plural, one {other} other {others}} started '{itemName}'`,
-    context: 'Indicates the learner name and how many other learners started a specific exercise.',
+    context:
+      'Indicates the learner name and how many other learners started a specific lesson or resource.',
   },
   multipleStartedMissing: {
     message: `{learnerName} and {numOthers, number} {numOthers, plural, one {other} other {others}} started a resource in this lesson`,
@@ -36,7 +37,7 @@ const nStrings = createTranslator('NotificationStrings', {
   },
   wholeClassStarted: {
     message: `Everyone started '{itemName}'`,
-    context: 'Indicates that every learner in the class started an activity.',
+    context: 'Indicates that every learner in the class started a lesson or resource.',
   },
   wholeClassStartedMissing: {
     message: `Everyone started a resource in this lesson`,
@@ -45,7 +46,7 @@ const nStrings = createTranslator('NotificationStrings', {
   },
   wholeGroupStarted: {
     message: `Everyone in '{groupName}' started '{itemName}'`,
-    context: 'Indicates that all the learners in a specific group started a lesson.',
+    context: 'Indicates that all the learners in a specific group started a lesson or resource.',
   },
   wholeGroupStartedMissing: {
     message: `Everyone in '{groupName}' started a resource in this lesson`,
@@ -54,7 +55,7 @@ const nStrings = createTranslator('NotificationStrings', {
   },
   everyoneStarted: {
     message: `Everyone started '{itemName}'`,
-    context: 'Indicates that every learner in the group or class started an activity.',
+    context: 'Indicates that every learner in the group or class started a lesson or resource.',
   },
   everyoneStartedMissing: {
     message: `Everyone started a resource in this lesson`,
@@ -65,7 +66,7 @@ const nStrings = createTranslator('NotificationStrings', {
   // completed
   individualCompleted: {
     message: `{learnerName} completed '{itemName}'`,
-    context: 'Indicates that a learner has completed an exercise.',
+    context: 'Indicates that a learner has completed a lesson or resource.',
   },
   individualCompletedMissing: {
     message: `{learnerName} completed a resource in this lesson`,
@@ -73,7 +74,7 @@ const nStrings = createTranslator('NotificationStrings', {
   },
   multipleCompleted: {
     message: `{learnerName} and {numOthers, number} {numOthers, plural, one {other} other {others}} completed '{itemName}'`,
-    context: 'Indicates a learner and one other or others have completed an exercise.',
+    context: 'Indicates a learner and one other or others have completed a lesson or resource.',
   },
   multipleCompletedMissing: {
     message: `{learnerName} and {numOthers, number} {numOthers, plural, one {other} other {others}} completed a resource in this lesson`,
@@ -82,7 +83,7 @@ const nStrings = createTranslator('NotificationStrings', {
   },
   wholeClassCompleted: {
     message: `Everyone completed '{itemName}'`,
-    context: 'Indicates that every learner in the class completed an activity.',
+    context: 'Indicates that every learner in the class completed a lesson or resource.',
   },
   wholeClassCompletedMissing: {
     message: `Everyone completed a resource in this lesson`,
@@ -91,7 +92,7 @@ const nStrings = createTranslator('NotificationStrings', {
   },
   wholeGroupCompleted: {
     message: `Everyone in '{groupName}' completed '{itemName}'`,
-    context: 'Indicates that all the learners in a specific group completed a lesson.',
+    context: 'Indicates that all the learners in a specific group completed a lesson or resource.',
   },
   wholeGroupCompletedMissing: {
     message: `Everyone in '{groupName}' completed a resource in this lesson`,
@@ -100,7 +101,7 @@ const nStrings = createTranslator('NotificationStrings', {
   },
   everyoneCompleted: {
     message: `Everyone completed '{itemName}'`,
-    context: 'Indicates that every learner in the group or class completed an activity.',
+    context: 'Indicates that every learner in the group or class completed a lesson or resource.',
   },
   everyoneCompletedMissing: {
     message: `Everyone completed a resource in this lesson`,
@@ -111,7 +112,7 @@ const nStrings = createTranslator('NotificationStrings', {
   // needs help
   individualNeedsHelp: {
     message: `{learnerName} needs help with '{itemName}'`,
-    context: 'Indicates that a learner needs help with a specific lesson.',
+    context: 'Indicates that a learner needs help with a specific exercise.',
   },
   individualNeedsHelpMissing: {
     message: `{learnerName} needs help with a resource in this lesson`,

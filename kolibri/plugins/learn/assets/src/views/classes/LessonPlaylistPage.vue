@@ -160,11 +160,7 @@
         context:
           "This text displays in the learner's 'Lessons' section if the coach has not added any resources to the lesson.",
       },
-      teacherNote: {
-        message: 'Coach note',
-        context:
-          'Label for the field where the coach can add notes for their learners regarding the resource.',
-      },
+      teacherNote: 'Coach note',
     },
   };
 
