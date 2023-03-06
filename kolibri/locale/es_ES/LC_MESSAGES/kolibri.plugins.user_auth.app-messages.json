@@ -15,6 +15,7 @@
   "CommonUserPageStrings.signInToFacilityLabel": "Iniciar sesión en '{facility}'",
   "CommonUserPageStrings.signingInAsUserLabel": "Iniciando sesión como '{user}'",
   "CommonUserPageStrings.signingInToFacilityAsUserLabel": "Iniciando sesión en '{facility}' como '{user}'",
+  "CoreBanner.openButton": "Más información",
   "FacilitySelect.askAdminForAccountLabel": "Pídele al administrador que cree una cuenta para estos centros educativos:",
   "FacilitySelect.canSignUpForFacilityLabel": "Seleccionar el centro educativo con el que deseas asociar tu nueva cuenta:",
   "FacilitySelect.selectFacilityLabel": "Selecciona el centro educativo al cual está asociada tu cuenta",
@@ -23,7 +24,6 @@
   "SignInPage.changeUser": "Cambiar usuario",
   "SignInPage.documentTitle": "Inicio de sesión",
   "SignInPage.incorrectPasswordError": "Contraseña incorrecta",
-  "SignInPage.incorrectUsernameError": "Nombre de usuario incorrecto",
   "SignInPage.nextLabel": "Siguiente",
   "SignInPage.requiredForCoachesAdmins": "La contraseña es necesaria para los tutores y administradores",
   "SignUpPage.createAccount": "Crear cuenta",
@@ -31,8 +31,6 @@
   "SignUpPage.demographicInfoOptional": "Proporcionar esta información es opcional.",
   "SignUpPage.documentTitle": "Crear cuenta",
   "SignUpPage.privacyLinkText": "Aprender más sobre el uso y la privacidad",
-  "UserIndex.signUpStep1Title": "Paso 1 de 2",
-  "UserIndex.signUpStep2Title": "Paso 2 de 2",
   "UserPageSnackbars.dismiss": "Cerrar",
   "UserPageSnackbars.signedOut": "Sesión terminada por inactividad"
 }

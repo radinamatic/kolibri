@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "Daftarkan pelajar ke dalam '{className}'",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } dari { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "Hasil sebelumnya",
-  "GroupEnrollPage.searchForUser": "Cari pengguna",
   "GroupEnrollPage.userTableLabel": "Daftar pengguna",
   "GroupMembersPage.back": "Semua grup",
   "GroupMembersPage.enrollButton": "Mendaftar peserta didik",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "Apa anda yakin ingin menghapusnya '{ title }'?",
   "ManageLessonModals.deleteLessonTitle": "Menghapus pelajaran",
   "ManageLessonModals.uniqueTitleError": "Pelajaran berjudul '{title}' sudah ada di '{className}'",
-  "MissingContentStrings.resourceNotFoundOnDevice": "Sumber tidak ditemukan di perangkat",
-  "MissingContentStrings.resourcesUnavailableP1": "Beberapa data laporan hilang, baik karena ada sumber yang tidak ditemukan di perangkat, atau karena tidak kompatibel dengan versi Kolibri.",
-  "MissingContentStrings.resourcesUnavailableP2": "Hubungi administrator Anda untuk mendapatkan panduan, atau gunakan akun dengan izin perangkat untuk mengelola saluran dan sumber daya.",
-  "MissingContentStrings.resourcesUnavailableTitle": "Resources unavailable",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "Some resources are missing or not supported",
   "MissingContentStrings.upgradeKolibriLinkText": "Go to download page",
   "MissingContentStrings.upgradeKolibriP1": "Some resources are not supported by this version of Kolibri. You may need to upgrade to view them.",
   "MissingContentStrings.upgradeKolibriTitle": "Upgrade Kolibri to view resources",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "Menyinkronkan...",
   "SyncStatusDisplay.unableOrNotSynced": "Baru-baru ini tidak disinkronkan atau tidak dapat disinkronkan",
   "SyncStatusDisplay.unableToSync": "Tidak dapat menyinkronkan",
-  "TopNavbar.plan": "Plan",
   "TruncatedItemList.manyItems": "{item1}, {item2}, dan {count, number, integer} lainnya",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "Peran",
-  "UserTable.selectAllLabel": "Pilih semua",
-  "UserTable.userCheckboxLabel": "Cari pengguna"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

@@ -15,6 +15,7 @@
   "CommonUserPageStrings.signInToFacilityLabel": "Hãy đăng nhập vào '{facility}'",
   "CommonUserPageStrings.signingInAsUserLabel": "Đăng nhập dưới tên '{user}'",
   "CommonUserPageStrings.signingInToFacilityAsUserLabel": "Đăng nhập vào '{facility}' dưới tên '{user}'",
+  "CoreBanner.openButton": "Xem thêm thông tin",
   "FacilitySelect.askAdminForAccountLabel": "Hãy yêu cầu quản trị viên tạo tài khoản cho các địa điểm này:",
   "FacilitySelect.canSignUpForFacilityLabel": "Chọn địa điểm mà bạn muốn liên kết với tài khoản mới của mình:",
   "FacilitySelect.selectFacilityLabel": "Chọn công cụ có tài khoản của bạn",
@@ -23,7 +24,6 @@
   "SignInPage.changeUser": "Thay đổi người dùng",
   "SignInPage.documentTitle": "Đăng nhập người dùng",
   "SignInPage.incorrectPasswordError": "Mật khẩu không đúng",
-  "SignInPage.incorrectUsernameError": "Tên người dùng không chính xác",
   "SignInPage.nextLabel": "Tiếp theo",
   "SignInPage.requiredForCoachesAdmins": "Giáo viên và quản trị viên bắt buộc phải có mật khẩu",
   "SignUpPage.createAccount": "Tạo tài khoản",
@@ -31,8 +31,6 @@
   "SignUpPage.demographicInfoOptional": "Việc cung cấp thông tin này là không bắt buộc.",
   "SignUpPage.documentTitle": "Tạo tài khoản",
   "SignUpPage.privacyLinkText": "Tìm hiểu thêm về cách sử dụng và quyền riêng tư",
-  "UserIndex.signUpStep1Title": "Bước 1/2",
-  "UserIndex.signUpStep2Title": "Bước 2/2",
   "UserPageSnackbars.dismiss": "Đóng",
   "UserPageSnackbars.signedOut": "Bạn đã tự động đăng xuất do không hoạt động"
 }

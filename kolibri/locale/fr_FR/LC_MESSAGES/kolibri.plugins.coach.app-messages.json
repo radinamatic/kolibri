@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "Inscrire les apprenants dans '{className}'",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } de { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "Résultats précédents",
-  "GroupEnrollPage.searchForUser": "Rechercher un utilisateur",
   "GroupEnrollPage.userTableLabel": "Liste d'Utilisateur",
   "GroupMembersPage.back": "Tous les groupes",
   "GroupMembersPage.enrollButton": "Inscrire les apprenants",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "Êtes-vous sûr de vouloir supprimer \"{ title }\"?",
   "ManageLessonModals.deleteLessonTitle": "Supprimer la leçon",
   "ManageLessonModals.uniqueTitleError": "La leçon intitulée '{title}' existe déjà dans '{className}'",
-  "MissingContentStrings.resourceNotFoundOnDevice": "Ressource inconnue sur l'appareil",
-  "MissingContentStrings.resourcesUnavailableP1": "Certaines données de rapport sont manquantes, soit parce qu'il y a des ressources qui n'ont pas été trouvées sur l'appareil, soit parce qu'ils ne sont pas compatibles avec votre version de Kolibri.",
-  "MissingContentStrings.resourcesUnavailableP2": "Consultez votre administrateur pour obtenir des conseils, ou utilisez un compte avec des autorisations sur l'appareil pour gérer les chaînes et les ressources.",
-  "MissingContentStrings.resourcesUnavailableTitle": "Ressources non disponibles",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "Certaines ressources sont manquantes ou non supportées",
   "MissingContentStrings.upgradeKolibriLinkText": "Allez à la page des téléchargements",
   "MissingContentStrings.upgradeKolibriP1": "Certaines ressources ne sont pas supportées par cette version de Kolibri. Vous devrez peut-être mettre à jour pour les voir.",
   "MissingContentStrings.upgradeKolibriTitle": "Mettez à jour Kolibri pour voir les ressources",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "En cours de synchronisation...",
   "SyncStatusDisplay.unableOrNotSynced": "Pas récemment synchronisé ou impossible de synchroniser",
   "SyncStatusDisplay.unableToSync": "Impossible de synchroniser",
-  "TopNavbar.plan": "Planification",
   "TruncatedItemList.manyItems": "{item1}, {item2} et {count, number, integer} autres",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "Rôle",
-  "UserTable.selectAllLabel": "Tout sélectionner",
-  "UserTable.userCheckboxLabel": "Sélectionner un utilisateur"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

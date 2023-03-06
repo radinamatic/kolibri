@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "سیکھنے والوں کو اندراج کریں '{className}'",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } سے { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "سابقہ نتائج",
-  "GroupEnrollPage.searchForUser": "یوزر/صارف کی تلاش کیجۓ",
   "GroupEnrollPage.userTableLabel": "صارف کی فہرست",
   "GroupMembersPage.back": "تمام گروپس",
   "GroupMembersPage.enrollButton": "شاگردوں کا اندراج کریں",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "کیا آپ واقعی مٹانا چاہتے ہیں '{ title }'?",
   "ManageLessonModals.deleteLessonTitle": "سبق مٹادیں",
   "ManageLessonModals.uniqueTitleError": "'{title}' کا ایک سبق پہلے سے '{className}' میں موجود ہے",
-  "MissingContentStrings.resourceNotFoundOnDevice": "وسیلہ آلہ پر نہیں ملا",
-  "MissingContentStrings.resourcesUnavailableP1": "رپورٹ کے کچھ اعداد و شمار موجود نہیں ہیں ، یا تو اس وجہ سے کہ ایسے وسائل آلے پر موجود نہیں ہیں ، یا اس وجہ سے کہ وہ آپ کے کولیبری ورژن کے مطابق نہیں ہیں۔",
-  "MissingContentStrings.resourcesUnavailableP2": "رہنمائی کے اپنے منتظم سے رجوع کریں ، یا چینلز کے نظم و نسق کے لیئے ایسا اکاؤنٹ استعمال کریں جو اجازت والے آلے میں ہو۔",
-  "MissingContentStrings.resourcesUnavailableTitle": "وسائل دستیاب نہیں ہیں",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "کچھ وسائل غائب ہیں یا تعاون یافتہ نہیں ہیں",
   "MissingContentStrings.upgradeKolibriLinkText": "ڈاؤن لوڈ صفحہ پر جائیں",
   "MissingContentStrings.upgradeKolibriP1": "کچھ وسائل کولیبری کے اس ورژن سے تعاون نہیں کرتے ہیں۔ ان کو دیکھنے کے آپ کو اپ گریڈ کرنے کی ضرورت ہوگی۔",
   "MissingContentStrings.upgradeKolibriTitle": "وسائل دیکھنے کے لئے کولیبری کو اپ گریڈ کریں",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "سنک ہو رہا ہے",
   "SyncStatusDisplay.unableOrNotSynced": "حال ہی میںسنک نہیں ہوا یا سنک ہونے سے قاصر ہے",
   "SyncStatusDisplay.unableToSync": "سنک نہیں ہو پایا",
-  "TopNavbar.plan": "منصوبہ",
   "TruncatedItemList.manyItems": "{item1} ،{item2} اور باقی {count, number,integer}",
   "TruncatedItemList.threeItems": "{item1}، {item2}، {item3}",
-  "TruncatedItemList.twoItems": "{item1}، {item2}",
-  "UserTable.role": "کردار",
-  "UserTable.selectAllLabel": "تمام منتخب کریں",
-  "UserTable.userCheckboxLabel": "یوزر/صارف منتخب کریں"
+  "TruncatedItemList.twoItems": "{item1}، {item2}"
 }

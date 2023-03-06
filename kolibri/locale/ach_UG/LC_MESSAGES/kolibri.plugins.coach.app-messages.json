@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "crwdns333779:0{className}crwdne333779:0",
   "GroupEnrollPage.pagination": "crwdns333781:0visibleStartRange={visibleStartRange}crwdnd333781:0visibleEndRange={visibleEndRange}crwdnd333781:0numFilteredUsers={numFilteredUsers}crwdne333781:0",
   "GroupEnrollPage.previousResults": "crwdns333783:0crwdne333783:0",
-  "GroupEnrollPage.searchForUser": "crwdns333785:0crwdne333785:0",
   "GroupEnrollPage.userTableLabel": "crwdns333787:0crwdne333787:0",
   "GroupMembersPage.back": "crwdns333789:0crwdne333789:0",
   "GroupMembersPage.enrollButton": "crwdns333791:0crwdne333791:0",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "crwdns333957:0{ title }crwdne333957:0",
   "ManageLessonModals.deleteLessonTitle": "crwdns333959:0crwdne333959:0",
   "ManageLessonModals.uniqueTitleError": "crwdns333961:0{title}crwdnd333961:0{className}crwdne333961:0",
-  "MissingContentStrings.resourceNotFoundOnDevice": "crwdns333963:0crwdne333963:0",
-  "MissingContentStrings.resourcesUnavailableP1": "crwdns333965:0crwdne333965:0",
-  "MissingContentStrings.resourcesUnavailableP2": "crwdns333967:0crwdne333967:0",
-  "MissingContentStrings.resourcesUnavailableTitle": "crwdns333969:0crwdne333969:0",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "crwdns333971:0crwdne333971:0",
   "MissingContentStrings.upgradeKolibriLinkText": "crwdns333973:0crwdne333973:0",
   "MissingContentStrings.upgradeKolibriP1": "crwdns333975:0crwdne333975:0",
   "MissingContentStrings.upgradeKolibriTitle": "crwdns333977:0crwdne333977:0",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "crwdns335441:0crwdne335441:0",
   "SyncStatusDisplay.unableOrNotSynced": "crwdns335443:0crwdne335443:0",
   "SyncStatusDisplay.unableToSync": "crwdns335445:0crwdne335445:0",
-  "TopNavbar.plan": "crwdns334129:0crwdne334129:0",
   "TruncatedItemList.manyItems": "crwdns334131:0item1={item1}crwdnd334131:0item2={item2}crwdnd334131:0count={count}crwdne334131:0",
   "TruncatedItemList.threeItems": "crwdns334133:0{item1}crwdnd334133:0{item2}crwdnd334133:0{item3}crwdne334133:0",
-  "TruncatedItemList.twoItems": "crwdns334135:0{item1}crwdnd334135:0{item2}crwdne334135:0",
-  "UserTable.role": "crwdns336207:0crwdne336207:0",
-  "UserTable.selectAllLabel": "crwdns336209:0crwdne336209:0",
-  "UserTable.userCheckboxLabel": "crwdns336211:0crwdne336211:0"
+  "TruncatedItemList.twoItems": "crwdns334135:0{item1}crwdnd334135:0{item2}crwdne334135:0"
 }

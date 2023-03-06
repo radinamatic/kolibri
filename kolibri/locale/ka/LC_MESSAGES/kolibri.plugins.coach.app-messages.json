@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "„{className}“-ში მოსწავლეების დამატება",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number }, { numFilteredUsers, number }-დან",
   "GroupEnrollPage.previousResults": "წინა შედეგები",
-  "GroupEnrollPage.searchForUser": "მომხმარებლის ძებნა",
   "GroupEnrollPage.userTableLabel": "მომხმარებლების სია",
   "GroupMembersPage.back": "ყველა ჯგუფი",
   "GroupMembersPage.enrollButton": "მოსწავლეების დამატება",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "დარწმუნებული ხართ, რომ გინდათ წაშალოთ '{ title }'?",
   "ManageLessonModals.deleteLessonTitle": "გაკვეთილის წაშლა",
   "ManageLessonModals.uniqueTitleError": "გაკვეთილი ამ სათაურით „{title}“ უკვე არსებობს აქ: „{className}“",
-  "MissingContentStrings.resourceNotFoundOnDevice": "ამ მოწყობილობაზე რესურსები არ არის",
-  "MissingContentStrings.resourcesUnavailableP1": "ანგარიშის ზოგიერთი მონაცემი აკლია. ეს შეიძლება იყოს იმის გამო, რომ ზოგიერთი რესურსი მოწყობილობაზე არ მოიძებნა, ან — კოლიბრის თქვენს ვერსიასთან არ არიან თავსებადი.",
-  "MissingContentStrings.resourcesUnavailableP2": "დახმარებისთვის, მიმართეთ თქვენს ადმინისტრატორს, ან გამოიყენეთ ანგარიში რომელსაც აქვს ნებართვა მართოს არხები და რესურსები.",
-  "MissingContentStrings.resourcesUnavailableTitle": "რესურსები მიუწვდომელია",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "ზოგიერთი რესურსი აკლია, ან არ არის მხარდაჭერილი",
   "MissingContentStrings.upgradeKolibriLinkText": "ჩამოტვირთვის გვერდზე გადასვლა",
   "MissingContentStrings.upgradeKolibriP1": "ზოგიერთი რესურსი არაა მხარდაჭერილი კოლიბრის ამ ვერსიაზე. შეიძლება განახლება დაგჭირდეთ, რომ ნახოთ ისინი.",
   "MissingContentStrings.upgradeKolibriTitle": "კოლიბრის განახლება რესურსების ნახვისთვის",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "სინქრონიზაცია...",
   "SyncStatusDisplay.unableOrNotSynced": "ბოლო დროს სინქრონიზაცია არ ყოფილა, ან შეუძლებელია",
   "SyncStatusDisplay.unableToSync": "სინქრონიზაცია შეუძლებელია",
-  "TopNavbar.plan": "დაგეგმეთ",
   "TruncatedItemList.manyItems": "{item1}, {item2} და {count, number, integer} სხვა",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "როლი",
-  "UserTable.selectAllLabel": "ყველას მონიშვნა",
-  "UserTable.userCheckboxLabel": "მომხმარებლის არჩევა"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

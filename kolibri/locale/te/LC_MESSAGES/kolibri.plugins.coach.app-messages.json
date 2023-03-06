@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "'{className}'కి విద్యార్థులను నమోదు చేయండి",
   "GroupEnrollPage.pagination": "{ numFilteredUsers, number }లో { visibleStartRange, number } - { visibleEndRange, number } ",
   "GroupEnrollPage.previousResults": "మునుపటి ఫలితాలు",
-  "GroupEnrollPage.searchForUser": "వినియోగదారు కోసం శోధించు",
   "GroupEnrollPage.userTableLabel": "వినియోగదారు జాబితా",
   "GroupMembersPage.back": "అన్ని సమూహాలు",
   "GroupMembersPage.enrollButton": "విద్యార్థులను నమోదు చేయి",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "మీరు { title }ని ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?",
   "ManageLessonModals.deleteLessonTitle": "పాఠాన్ని తొలగించు",
   "ManageLessonModals.uniqueTitleError": "'{className}'లో '{title}' పేరుతో ఒక పాఠం ఇప్పటికే ఉనికిలో ఉంది",
-  "MissingContentStrings.resourceNotFoundOnDevice": "వనరు పరికరంపై కనుగొనబడలేదు",
-  "MissingContentStrings.resourcesUnavailableP1": "కొంత నివేదిక డేటా తప్పిపోయింది, ఎందుకంటే పరికరంపై కొన్ని వనరులు కనుగొనబడలేదు, లేదా అవి మీ Kolibri వెర్షన్‌కి అనుకూలముగా లేవు.",
-  "MissingContentStrings.resourcesUnavailableP2": "మార్గదర్శకం కోసం మీ నిర్వాహకుడిని సంప్రదించండి లేదా ఛానల్‌లు మరియు వనరులను నిర్వహించడానికి పరికరం అనుమతులు ఉన్న ఖాతాను వినియోగించండి.",
-  "MissingContentStrings.resourcesUnavailableTitle": "వనరులు అందుబాటులో లేవు",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "కొన్ని వనరులు తప్పిపోయాయి లేదా వాటికి మద్దతు లేదు",
   "MissingContentStrings.upgradeKolibriLinkText": "డౌన్‌లోడ్ పేజీకి వెళ్లు",
   "MissingContentStrings.upgradeKolibriP1": "Kolibri యొక్క ఈ సంస్కరణలో కొన్ని వనరులకు మద్దతు లేదు. వాటిని వీక్షించడానికి మీరు అప్‌గ్రేడ్ చేయాలి.",
   "MissingContentStrings.upgradeKolibriTitle": "వనరులను వీక్షించడానికి Kolibriని అప్‌గ్రేడ్ చేయండి",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "సింక్ అవుతోంది...",
   "SyncStatusDisplay.unableOrNotSynced": "ఇటీవల సింక్ చేయబడలేదు లేదా సింక్ చేయడం సాధ్యపడలేదు",
   "SyncStatusDisplay.unableToSync": "సింక్ చేయలేకున్నాము",
-  "TopNavbar.plan": "ప్లాన్",
   "TruncatedItemList.manyItems": "{item1}, {item2} మరియు మరో {count, number, integer} మంది",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "పాత్ర",
-  "UserTable.selectAllLabel": "అన్నింటినీ ఎంచుకోండి",
-  "UserTable.userCheckboxLabel": "వినియోగదారుని ఎంచుకోండి"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

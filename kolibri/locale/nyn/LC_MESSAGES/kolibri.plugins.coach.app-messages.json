@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "Ikani ophunzira mu '{className}'",
   "GroupEnrollPage.pagination": "{visibleStartRange,number} - {visibleEndRange,number} pa {numFilteredUsers,number}",
   "GroupEnrollPage.previousResults": "Zotsatira za papitapo",
-  "GroupEnrollPage.searchForUser": "Fufuzani munthu",
   "GroupEnrollPage.userTableLabel": "Ndandanda ya ogwiritsa ntchito",
   "GroupMembersPage.back": "Magulu onse",
   "GroupMembersPage.enrollButton": "Ikani ophunzira",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "Kodi mwatsimikizadi kudilita '{ title }'?",
   "ManageLessonModals.deleteLessonTitle": "Fufutani phunziro",
   "ManageLessonModals.uniqueTitleError": "Pali kale phunziro lotchedwa '{title}' mu '{className}'",
-  "MissingContentStrings.resourceNotFoundOnDevice": "Chophunzirira sichinapezeke m'chipangizochi",
-  "MissingContentStrings.resourcesUnavailableP1": "Uthenga wina wokhudza malipoti wasowa, mwina chifukwa mu chipangizochi mulibe zophunzirira kapena sizikugwirizana ndi mtundu wa Kolibri.",
-  "MissingContentStrings.resourcesUnavailableP2": "Afunseni eni ake kuti akuthandizeni, kapena gwrlitsani ntchito akaunti yomwe ili ndi zoyeneleza kuti muthe kugwiritsa ntchito matchanelo ndi zinthu",
-  "MissingContentStrings.resourcesUnavailableTitle": "Palibe zophunzirira",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "Zophunzirira zina sizikupezeka kapena sizikugwirizana ndi chipangizo",
   "MissingContentStrings.upgradeKolibriLinkText": "Pitani patsamba lopangira dawunilodi",
   "MissingContentStrings.upgradeKolibriP1": "Zophunzirira zina sizikugwirizana ndi mtundu wa Kolibri umenewu. Mukufunika kulowetsa pulogalamu yatsopano kuti muzione.",
   "MissingContentStrings.upgradeKolibriTitle": "Lowetsani pulogalamu ya Kolibri yatsopano kuti muone zophunzirira",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "Zikusinthana...",
   "SyncStatusDisplay.unableOrNotSynced": "Sizisinthane chapompano kapena zikukanika kusinthana",
   "SyncStatusDisplay.unableToSync": "Zakanika kusinthana",
-  "TopNavbar.plan": "Pulani",
   "TruncatedItemList.manyItems": "{item1}, {item2}, ndi zinanso {count, number, integer}",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "Udindo",
-  "UserTable.selectAllLabel": "Sankhani zonse",
-  "UserTable.userCheckboxLabel": "Fufutani wogwiritsa ntchito"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

@@ -15,6 +15,7 @@
   "CommonUserPageStrings.signInToFacilityLabel": "Accedi a '{facility}'",
   "CommonUserPageStrings.signingInAsUserLabel": "Accedi come '{user}'",
   "CommonUserPageStrings.signingInToFacilityAsUserLabel": "Accedi a '{facility}' come '{user}'",
+  "CoreBanner.openButton": "Altre Informazioni",
   "FacilitySelect.askAdminForAccountLabel": "Chiedi al tuo amministratore di creare un account per queste strutture:",
   "FacilitySelect.canSignUpForFacilityLabel": "Seleziona la struttura a cui desideri associare il tuo nuovo account:",
   "FacilitySelect.selectFacilityLabel": "Seleziona la struttura che ha il tuo account",
@@ -23,7 +24,6 @@
   "SignInPage.changeUser": "Cambia utente",
   "SignInPage.documentTitle": "Accesso utente",
   "SignInPage.incorrectPasswordError": "Password errata",
-  "SignInPage.incorrectUsernameError": "Nome utente errato",
   "SignInPage.nextLabel": "Continua",
   "SignInPage.requiredForCoachesAdmins": "La password è obbligatoria per insegnanti e amministratori",
   "SignUpPage.createAccount": "Crea un account",
@@ -31,8 +31,6 @@
   "SignUpPage.demographicInfoOptional": "Fornire queste informazioni è facoltativo.",
   "SignUpPage.documentTitle": "Crea un account",
   "SignUpPage.privacyLinkText": "Ulteriori informazioni sull'utilizzo e sulla privacy",
-  "UserIndex.signUpStep1Title": "Passo 1 di 2",
-  "UserIndex.signUpStep2Title": "Passo 2 di 2",
   "UserPageSnackbars.dismiss": "Chiudi",
   "UserPageSnackbars.signedOut": "Sei stato disconnesso automaticamente per inattività"
 }

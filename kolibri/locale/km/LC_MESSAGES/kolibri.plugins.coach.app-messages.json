@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "ចុះឈ្មោះអ្នកសិក្សាចូលទៅ \"{className}\"",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } នៃ { numFilteredUsers, number } នាក់",
   "GroupEnrollPage.previousResults": "លទ្ធផលពីមុន",
-  "GroupEnrollPage.searchForUser": "ស្វែងរកអ្នកប្រើប្រាស់",
   "GroupEnrollPage.userTableLabel": "បញ្ជីអ្នកប្រើប្រាស់",
   "GroupMembersPage.back": "គ្រប់ក្រុម",
   "GroupMembersPage.enrollButton": "ចុះឈ្មោះចូលអ្នកសិក្សា",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "តើអ្នកពិតជាចង់លុប \"{ title }\" មែនទេ?",
   "ManageLessonModals.deleteLessonTitle": "លុបមេរៀន",
   "ManageLessonModals.uniqueTitleError": "ចំណងជើងមេរៀនមួយនេះ '{title}' មានរួចហើយនៅក្នុង '{className}'",
-  "MissingContentStrings.resourceNotFoundOnDevice": "ធនធានមិនត្រូវបានរកឃើញក្នុងឧបករណ៍",
-  "MissingContentStrings.resourcesUnavailableP1": "ទិន្នន័យរបាយការណ៍មួយចំនួនត្រូវបានបាត់ដោយសារតែមានធនធានដែលមិនត្រូវបានរកឃើញក្នុងឧបករណ៍ ឬដោយសារពួកគេមិនត្រូវជំនាន់គ្នានឹង Kolibri របស់អ្នកប្រើប្រាស់។",
-  "MissingContentStrings.resourcesUnavailableP2": "សូមប្រឹក្សាជាមួយអ្នកគ្រប់គ្រងរបស់អ្នកសម្រាប់ទទួលបានការណែនាំ ឬ ប្រើគណនីដែលមាន\nការអនុញ្ញាតឧបករណ៍ ដើម្បីគ្រប់គ្រងឆានែល និងធនធាន។",
-  "MissingContentStrings.resourcesUnavailableTitle": "មិនមានធនធាន",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "ធនធានខ្លះកំពុងខកខាន ឬមិនបានគាំទ្រ",
   "MissingContentStrings.upgradeKolibriLinkText": "ចូលទៅទំព័រទាញយក",
   "MissingContentStrings.upgradeKolibriP1": "ធនធានខ្លះគឺមិនត្រូវបានគាំទ្រដោយទំនាន់នៃ Kolibri នេះទេ។ អ្នកត្រូវការតំឡើងវាដើម្បីចូលមើល។",
   "MissingContentStrings.upgradeKolibriTitle": "តំឡើង Kolibri ដើម្បីចូលមើលធនធាន",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "កំពុងធ្វើសមកាលកម្ម ...",
   "SyncStatusDisplay.unableOrNotSynced": "ថ្មីៗនេះមិនត្រូវបានធ្វើសមកាលកម្ម ឬ មិនអាចធ្វើសមកាលកម្មបានទេ",
   "SyncStatusDisplay.unableToSync": "មិនអាចធ្វើសមកាលកម្មបានទេ",
-  "TopNavbar.plan": "ផែនការ",
   "TruncatedItemList.manyItems": "{item1}, {item2} និង {count, number, integer} ផ្សេងទៀត",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "តួនាទី",
-  "UserTable.selectAllLabel": "ជ្រើសទាំងអស់",
-  "UserTable.userCheckboxLabel": "ជ្រើសរើសអ្នកប្រើប្រាស់"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

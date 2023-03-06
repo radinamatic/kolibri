@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "Yi rijistar ɗalibai cikin '{className}'",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } na { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "Sakamako na baya",
-  "GroupEnrollPage.searchForUser": "Nemo mai amfani",
   "GroupEnrollPage.userTableLabel": "Jerin masu amfani",
   "GroupMembersPage.back": "Dukkan rukunoni",
   "GroupMembersPage.enrollButton": "Yi rijistar ɗalibai",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "Shin kun tabbata kuna son goge '{ title }'?",
   "ManageLessonModals.deleteLessonTitle": "Goge darasi",
   "ManageLessonModals.uniqueTitleError": "Darasi mai taken '{title}' ya riga da ya wanzu a cikin '{className}'",
-  "MissingContentStrings.resourceNotFoundOnDevice": "Ba a samu wannan kayan akan na'urar ba",
-  "MissingContentStrings.resourcesUnavailableP1": "Wasu bayanai na rahoton sun ɓace, ko dai saboda akwai kayan da ba a same su a wannan na'urar, ko saboda ba su dace da sigar ku ta Kolibri.",
-  "MissingContentStrings.resourcesUnavailableP2": "Tuntuɓi mai gudanarwarka don jagora, ko amfanida asusu tare da izinin na'ura don gudanar da tashoshi da albarkatu",
-  "MissingContentStrings.resourcesUnavailableTitle": "Babu kayayyaki",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "Wasu kaya sun ɓace ko basu da tallafi",
   "MissingContentStrings.upgradeKolibriLinkText": "Je zuwa shafi na zazzagewa",
   "MissingContentStrings.upgradeKolibriP1": "Wasu kayan ba su da goyan baya na wannan sigar Kolibri. Za bu buƙaci haɓakawa don duba su.",
   "MissingContentStrings.upgradeKolibriTitle": "Haɓaka Kolibri don duba kaya",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "Ana kan haɗawa...",
   "SyncStatusDisplay.unableOrNotSynced": "Bai yi haɗin kwanannan ko bai iya haɗin",
   "SyncStatusDisplay.unableToSync": "Bai iya haɗin",
-  "TopNavbar.plan": "Tsari",
   "TruncatedItemList.manyItems": "{item1}, {item2}, da {count, number, integer} wasu",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "Rawa da za a taka",
-  "UserTable.selectAllLabel": "Zaɓi duk",
-  "UserTable.userCheckboxLabel": "Zaɓi mai amfani"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

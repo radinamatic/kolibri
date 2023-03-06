@@ -15,6 +15,7 @@
   "CommonUserPageStrings.signInToFacilityLabel": "'{facility}' में साइन इन करें",
   "CommonUserPageStrings.signingInAsUserLabel": "'{user}' के रूप में साइन इन कर रहे हैं",
   "CommonUserPageStrings.signingInToFacilityAsUserLabel": "'{facility}' में '{user}' के रूप में साइन इन कर रहे हैं",
+  "CoreBanner.openButton": "अधिक जानकारी",
   "FacilitySelect.askAdminForAccountLabel": "अपने एडमिनिस्ट्रेटर से इन सुविधाओं के लिए खाता बनाने के लिए कहें:",
   "FacilitySelect.canSignUpForFacilityLabel": "आप अपने नए खाते से जिस सुविधा को जोड़ना चाहते हैं उसे चुनें: ",
   "FacilitySelect.selectFacilityLabel": "आपके खाते में जो सुविधा है उसे चुनें",
@@ -23,7 +24,6 @@
   "SignInPage.changeUser": "उपयोगकर्ता बदलें",
   "SignInPage.documentTitle": "उपयोगकर्ता साइन इन",
   "SignInPage.incorrectPasswordError": "गलत पासवर्ड",
-  "SignInPage.incorrectUsernameError": "गलत उपयोगकर्ता नाम",
   "SignInPage.nextLabel": "अगला",
   "SignInPage.requiredForCoachesAdmins": "कोच और व्यवस्थापकों/एडमिन के लिए पासवर्ड ज़रूरी हैं",
   "SignUpPage.createAccount": "खाता बनाएँ",
@@ -31,8 +31,6 @@
   "SignUpPage.demographicInfoOptional": "यह जानकारी प्रदान करना ऐच्छिक है।",
   "SignUpPage.documentTitle": "खाता बनाएँ",
   "SignUpPage.privacyLinkText": "उपयोग और गोपनीयता के बारे में अधिक जानें",
-  "UserIndex.signUpStep1Title": "2 में से 1 ला चरण",
-  "UserIndex.signUpStep2Title": "2 में से 2 रा चरण",
   "UserPageSnackbars.dismiss": "बंद",
   "UserPageSnackbars.signedOut": "निष्क्रियता के कारण आप अपने आप साइन आउट हो गए"
 }

@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "Εγγραφή εκπαιδευομένων στο '{className}'",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } από { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "Προηγούμενα αποτελέσματα",
-  "GroupEnrollPage.searchForUser": "Αναζήτηση ενός χρήστη",
   "GroupEnrollPage.userTableLabel": "Λίστα Χρηστών",
   "GroupMembersPage.back": "Όλες οι ομάδες",
   "GroupMembersPage.enrollButton": "Εγγραφή εκπαιδευόμενων",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "Είστε βέβαιοι ότι θέλετε να διαγράψετε το '{ title }'?",
   "ManageLessonModals.deleteLessonTitle": "Διαγραφή μαθήματος",
   "ManageLessonModals.uniqueTitleError": "Ένα μάθημα με τίτλο '{title}' υπάρχει ήδη στην τάξη '{className}'",
-  "MissingContentStrings.resourceNotFoundOnDevice": "Η πηγή δεν βρέθηκε στη συσκευή",
-  "MissingContentStrings.resourcesUnavailableP1": "Λείπουν ορισμένα δεδομένα αναφοράς, είτε επειδή υπάρχουν πηγές που δεν βρέθηκαν στη συσκευή είτε επειδή δεν είναι συμβατά με την έκδοση του Kolibri που έχετε.",
-  "MissingContentStrings.resourcesUnavailableP2": "Συμβουλευτείτε τον διαχειριστή σας για καθοδήγηση ή χρησιμοποιήστε έναν λογαριασμό με δικαιώματα συσκευής για να διαχειριστείτε τα κανάλια και τις πηγές.",
-  "MissingContentStrings.resourcesUnavailableTitle": "Μη διαθέσιμες πηγές",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "Ορισμένες πηγές λείπουν ή δεν υποστηρίζονται",
   "MissingContentStrings.upgradeKolibriLinkText": "Μετάβαση στη σελίδα λήψης",
   "MissingContentStrings.upgradeKolibriP1": "Ορισμένες πηγές δεν υποστηρίζονται από αυτήν την έκδοση του Kolibri. Ίσως χρειαστεί να κάνετε αναβάθμιση για να τις δείτε.",
   "MissingContentStrings.upgradeKolibriTitle": "Αναβαθμίστε το Kolibri για να δείτε τις πηγές",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "Συγχρονισμός...",
   "SyncStatusDisplay.unableOrNotSynced": "Δεν συγχρονίστηκε πρόσφατα ή δεν ήταν δυνατός ο συγχρονισμός",
   "SyncStatusDisplay.unableToSync": "Αδυναμία συγχρονισμού",
-  "TopNavbar.plan": "Σχέδιο",
   "TruncatedItemList.manyItems": "{item1}, {item2}, και {count, number, integer} άλλοι",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "Ρόλος",
-  "UserTable.selectAllLabel": "Επιλογή όλων",
-  "UserTable.userCheckboxLabel": "Επιλογή χρήστη"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "'{className}'에 학생 등록하기",
   "GroupEnrollPage.pagination": "{ numFilteredUsers, number } 중 { visibleStartRange, number } - { visibleEndRange, number }",
   "GroupEnrollPage.previousResults": "이전 결과",
-  "GroupEnrollPage.searchForUser": "사용자 검색",
   "GroupEnrollPage.userTableLabel": "사용자 목록",
   "GroupMembersPage.back": "모든 그룹",
   "GroupMembersPage.enrollButton": "학생 등록하기",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "'{ title }'을 삭제하겠습니까?",
   "ManageLessonModals.deleteLessonTitle": "강의 삭제",
   "ManageLessonModals.uniqueTitleError": "'{title}'의 제목의 강의가 '{className}'에 이미 존재합니다",
-  "MissingContentStrings.resourceNotFoundOnDevice": "이 기기내 자료를 찾을 수 없습니다",
-  "MissingContentStrings.resourcesUnavailableP1": "이 기기에 없는 자료를 포함하고 있거나 혹은 Kolibri의 현재버전과 호환되지 않아 일부 리포트 데이터를 찾을 수 없습니다.",
-  "MissingContentStrings.resourcesUnavailableP2": "채널 및 자료를 관리하려면 운영자에게 안내를 요청하시거나, 기기 권한이 있는 계정을 사용하십시오.",
-  "MissingContentStrings.resourcesUnavailableTitle": "자료를 찾을 수 없음",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "일부 자료가 누락되었거나 지원되지 않는 양식입니다",
   "MissingContentStrings.upgradeKolibriLinkText": "다운로드 페이지로 가기",
   "MissingContentStrings.upgradeKolibriP1": "이 버전의 Kolibri에서 지원하지 않는 자료가 일부 있습니다. 이 자료를 보기위해 Kolibri 버전을 업데이트 하십시오.",
   "MissingContentStrings.upgradeKolibriTitle": "자료 보기를 위해 Kolibri 업데이트하기",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "동기화 중...",
   "SyncStatusDisplay.unableOrNotSynced": "최근에 동기화된 적 없거나 동기화할 수 없음",
   "SyncStatusDisplay.unableToSync": "동기화할 수 없음",
-  "TopNavbar.plan": "계획",
   "TruncatedItemList.manyItems": "{item1}, {item2} 외 {count, number, integer}개",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "역할",
-  "UserTable.selectAllLabel": "전체 선택",
-  "UserTable.userCheckboxLabel": "사용자 선택"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

@@ -15,6 +15,7 @@
   "CommonUserPageStrings.signInToFacilityLabel": "Bei '{facility}' anmelden",
   "CommonUserPageStrings.signingInAsUserLabel": "Als '{user}' anmelden",
   "CommonUserPageStrings.signingInToFacilityAsUserLabel": " Als '{user}' bei '{facility}' anmelden",
+  "CoreBanner.openButton": "Mehr Informationen",
   "FacilitySelect.askAdminForAccountLabel": "Wenden Sie sich an Ihren Administrator, um ein Konto für diese Einrichtungen zu erstellen: ",
   "FacilitySelect.canSignUpForFacilityLabel": "Wählen Sie die Einrichtung, mit der Sie Ihr neues Konto verknüpfen möchten:",
   "FacilitySelect.selectFacilityLabel": "Wählen Sie die Einrichtung, die mit Ihrem Konto verknüpft ist",
@@ -23,7 +24,6 @@
   "SignInPage.changeUser": "Benutzer ändern",
   "SignInPage.documentTitle": "Benutzer Login",
   "SignInPage.incorrectPasswordError": "Falsches Passwort",
-  "SignInPage.incorrectUsernameError": "Falscher Benutzername",
   "SignInPage.nextLabel": "Nächstes",
   "SignInPage.requiredForCoachesAdmins": "Kennwort ist erforderlich für Trainer und Verwalter",
   "SignUpPage.createAccount": "Erstellen Sie ein Konto",
@@ -31,8 +31,6 @@
   "SignUpPage.demographicInfoOptional": "Die Angabe dieser Informationen ist optional.",
   "SignUpPage.documentTitle": "Konto erstellen",
   "SignUpPage.privacyLinkText": "Weitere Infos zu Datennutzung und Datenschutz",
-  "UserIndex.signUpStep1Title": "Schritt 1 von 2",
-  "UserIndex.signUpStep2Title": "Schritt 2 von 2",
   "UserPageSnackbars.dismiss": "In der Nähe",
   "UserPageSnackbars.signedOut": "Sie wurden aufgrund von Inaktivität automatisch abgemeldet"
 }

@@ -35,24 +35,25 @@
     $trs: {
       syncedDescription: {
         message: 'The device has been recently synced with the class server.',
-        context: 'Description of the device syncing status.',
+        context: 'Device syncing status explained.',
       },
       syncingDescription: {
         message: 'The device is currently syncing.',
-        context: 'Description of the device syncing status.',
+        context: 'Device syncing status explained.',
       },
       queuedDescription: {
         message: 'The device is waiting to sync.',
-        context: 'Description of the device syncing status.',
+        context: 'Device syncing status explained.',
       },
       unableOrNoSyncDescription: {
         message:
           'The problem could be that the device is connected to the server but hasn’t recently synced. Or syncing was attempted but failed for some reason.',
-        context: 'Description of the device syncing status.',
+
+        context: 'Device syncing status explained.',
       },
       notConnectedDescription: {
         message: 'The device isn’t connected to a server it can be synced with.',
-        context: 'Description of the device syncing status.',
+        context: 'Device syncing status explained.',
       },
       insufficientStorageDescription: {
         message:

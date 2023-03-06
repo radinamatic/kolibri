@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "Andikisha wanafunzi kwa '{className}'",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number }-{ visibleEndRange, number } kwa { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "Matokeo yaliyopita",
-  "GroupEnrollPage.searchForUser": "Tafuta mtumiaji",
   "GroupEnrollPage.userTableLabel": "Orodha ya mtumiaji",
   "GroupMembersPage.back": "Vikundi vyote",
   "GroupMembersPage.enrollButton": "Sajili wanafunzi",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "Una uhakika unataka kufuta '{ title }'?",
   "ManageLessonModals.deleteLessonTitle": "Futa somo",
   "ManageLessonModals.uniqueTitleError": "Somo la mada '{title}' tayari linapatikana kwa '{className}'",
-  "MissingContentStrings.resourceNotFoundOnDevice": "Rasilimali haipatikani kwenye kifaa",
-  "MissingContentStrings.resourcesUnavailableP1": "Baadhi ya data ya ripoti haipo, labda kwa sababu kuna rasilimali ambazo hazikuonekana kwenye kifaa, au kwa sababu haziendani na toleo lako la Kolibri.",
-  "MissingContentStrings.resourcesUnavailableP2": "Wasiliana na msimamizi wako kwa mwongozo, au tumia akaunti iliyo na ruhusa za kifaa kudhibiti vituo na rasilimali.",
-  "MissingContentStrings.resourcesUnavailableTitle": "Rasilimali hazipatikani",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "Rasilimali zingine hazipo au hazihimiliwi",
   "MissingContentStrings.upgradeKolibriLinkText": "Nenda kwa kupakua ukurasa",
   "MissingContentStrings.upgradeKolibriP1": "Rasilimali zingine hazihimiliwi na toleo hili la Kolibri. Unaweza kuhitaji kusasisha ili kuziangalia.",
   "MissingContentStrings.upgradeKolibriTitle": "Boresha Kolibri ili uangalie rasilimali",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "Kinasawazishwa",
   "SyncStatusDisplay.unableOrNotSynced": "Hakijasawazishwa hivi karibuni au kimeshindwa kusawazishwa",
   "SyncStatusDisplay.unableToSync": "Kimeshindwa kusawazishwa",
-  "TopNavbar.plan": "Mpango",
   "TruncatedItemList.manyItems": "{item1}, {item2}, na {count, number, integer} zingine",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "Jukumu",
-  "UserTable.selectAllLabel": "Chagua yote",
-  "UserTable.userCheckboxLabel": "Chagua mtumiaji"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

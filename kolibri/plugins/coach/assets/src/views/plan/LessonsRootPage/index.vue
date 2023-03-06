@@ -324,7 +324,7 @@
       size: {
         message: 'Size',
         context:
-          "'Size' is a column name in the 'Lessons' section. It refers to the number or learning resources there are in a specific lesson and the file size of these resources.",
+          "'Size' is a column name in the 'Lessons' section. It refers to the number or learning resources there are in a specific lesson.",
       },
       totalLessonsSize: {
         message: 'Total size of lessons that are visible to learners: {size}',

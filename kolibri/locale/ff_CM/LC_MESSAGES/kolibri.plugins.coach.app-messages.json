@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "Winndugo fukaraaɓe nder '{className}'",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } nder { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "Saalaangol",
-  "GroupEnrollPage.searchForUser": "Ɗaɓɓutugo kuutiniroowo",
   "GroupEnrollPage.userTableLabel": "Tokkindirka huutinirooɓe",
   "GroupMembersPage.back": "Kawte fuu",
   "GroupMembersPage.enrollButton": "Winndugo fukaraaɓe",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "Fakat a yiɗi ittugo '{ title }' na?",
   "ManageLessonModals.deleteLessonTitle": "Ittugo ekkitinol",
   "ManageLessonModals.uniqueTitleError": "'{className}' e woodi ekkitinol bee innde '{title}'",
-  "MissingContentStrings.resourceNotFoundOnDevice": "Jannginillum walaa nder kompiita",
-  "MissingContentStrings.resourcesUnavailableP1": "Data habaru kuutiniral feere majji, koo ngam jannginillum goɗɗum yi'aaka nder kompiita, koo ngam ɗum yaadataa bee irin Kolibri mooɗon.",
-  "MissingContentStrings.resourcesUnavailableP2": "Ƴamu dawroowo koo huutinir bee sigorɗum marɗum yerduye ngam hakkilango gure janngugo bee jannginillum.",
-  "MissingContentStrings.resourcesUnavailableTitle": "Jannginillum walaa",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "Jannginillum feere majji koo ɗum yerdaaka",
   "MissingContentStrings.upgradeKolibriLinkText": "Yahugo ɗerewol ronndaago",
   "MissingContentStrings.upgradeKolibriP1": "Irin Kolibri ɗu'um yerdaaki jannginillum feere. Hesɗitin Kolibri maaɗa taa yiɗi yi'ugoɗum.",
   "MissingContentStrings.upgradeKolibriTitle": "Hesɗin Kolibri ngam raarugo jannginillum",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "E canjindira data...",
   "SyncStatusDisplay.unableOrNotSynced": "Wayri canjindirgo data koo wawataaɗum",
   "SyncStatusDisplay.unableToSync": "Waawataa canjindirgo data",
-  "TopNavbar.plan": "Taskaago",
   "TruncatedItemList.manyItems": "{item1}, {item2}, bee {count, number, integer} feere",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "Moye nder Kolibri",
-  "UserTable.selectAllLabel": "Suɓtugo fuu",
-  "UserTable.userCheckboxLabel": "Suɓtugo kuutiniroowo"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

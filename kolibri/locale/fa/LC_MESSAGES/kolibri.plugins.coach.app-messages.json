@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "ثبت‌نام یادگیرنده‌ها در '{className}'",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } از { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "نتایج قبلی",
-  "GroupEnrollPage.searchForUser": "جستجو برای كاربر",
   "GroupEnrollPage.userTableLabel": "فهرست کاربران",
   "GroupMembersPage.back": "همه‌ی گروه‌ها",
   "GroupMembersPage.enrollButton": "ثبت‌نام دانش‌آموزان",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "آیا مطمئن هستید که می‌خواهید '{ title }' را حذف کنید؟",
   "ManageLessonModals.deleteLessonTitle": "حذف درس",
   "ManageLessonModals.uniqueTitleError": "در حال حاضر درسی با عنوان '{title}' در '{className}' وجود دارد",
-  "MissingContentStrings.resourceNotFoundOnDevice": "منبع بر روی دستگاه یافت نشد",
-  "MissingContentStrings.resourcesUnavailableP1": "برخی از داده‌ها و گزارش‌ها یا به دلیل این‌که منابعی بر روی این دستگاه پیدا نشدند و یا به دلیل این‌که با این نسخه از کُلیبری سازگار نیستند، از دست رفته‌اند.",
-  "MissingContentStrings.resourcesUnavailableP2": "برای راهنمایی با سرپرست یا ادمین خود مشورت کنید و یا از یک حساب کاربری با مجوز دستگاه برای مدیریت کانال‌ها و منابع استفاده نمایید.",
-  "MissingContentStrings.resourcesUnavailableTitle": "منابع خارج از دسترس",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "برخی از منابع از بین رفته و یا پشتیبانی نمی‌شوند",
   "MissingContentStrings.upgradeKolibriLinkText": "برو به صفحه‌ی دانلود",
   "MissingContentStrings.upgradeKolibriP1": "برخی از منابع توسط این نسخه از کُلیبری پشتیبانی نمی‌شوند. ممکن است برای مشاهده‌ی آن‌ها به به‌روزرسانی نیاز داشته باشید.",
   "MissingContentStrings.upgradeKolibriTitle": "کُلیبری را به‌روز کنید تا بتوانید منابع را ببینید",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "در حال سینک یا همگام‌سازی...",
   "SyncStatusDisplay.unableOrNotSynced": "به‌تازگی سینک نشده و قادر به سینک کردن نمی‌باشد",
   "SyncStatusDisplay.unableToSync": "قادر به سینک کردن نمی‌باشد",
-  "TopNavbar.plan": "برنامه‌ریزی",
   "TruncatedItemList.manyItems": "{item1}, {item2}, و {count, number, integer} مورد دیگر",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "نقش",
-  "UserTable.selectAllLabel": "انتخاب همه موارد",
-  "UserTable.userCheckboxLabel": "انتخاب کاربر"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

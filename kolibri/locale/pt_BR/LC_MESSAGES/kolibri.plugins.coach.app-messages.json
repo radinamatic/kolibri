@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "Inscrever alunos na classe '{className}'",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } de { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "Resultados anteriores",
-  "GroupEnrollPage.searchForUser": "Buscar usuário",
   "GroupEnrollPage.userTableLabel": "Lista de Usuários",
   "GroupMembersPage.back": "Todos os grupos",
   "GroupMembersPage.enrollButton": "Inscrever alunos",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "Tem certeza de que quer excluir o exame { title }'?",
   "ManageLessonModals.deleteLessonTitle": "Excluir a lição",
   "ManageLessonModals.uniqueTitleError": "Já existe uma lição entitulada '{title}' na classe '{className}'",
-  "MissingContentStrings.resourceNotFoundOnDevice": "Este conteúdo não foi encontrado no dispositivo",
-  "MissingContentStrings.resourcesUnavailableP1": "Alguns dados do relatório estão ausentes, porque se referem a conteúdos que não foram encontrados no dispositivo ou que não são compatíveis com a sua versão de Kolibri.",
-  "MissingContentStrings.resourcesUnavailableP2": "Consulte seu administrador ou utilize uma conta de usuário que lhe permita gerenciar conteúdos.",
-  "MissingContentStrings.resourcesUnavailableTitle": "Nenhum conteúdo disponível",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "Há conteúdos ausentes ou não compatíveis",
   "MissingContentStrings.upgradeKolibriLinkText": "Ir para a página de download",
   "MissingContentStrings.upgradeKolibriP1": "Alguns conteúdos não são compatíveis com esta versão de Kolibri. É necessário fazer a atualização da plataforma para visualizá-los.",
   "MissingContentStrings.upgradeKolibriTitle": "Atualize Kolibri para visualizar conteúdos",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "Sincronizando...",
   "SyncStatusDisplay.unableOrNotSynced": "Dispositivo não sincronizado recentemente ou incapaz de sincronizar",
   "SyncStatusDisplay.unableToSync": "Falha ao sincronizar",
-  "TopNavbar.plan": "Planejar",
   "TruncatedItemList.manyItems": "{item1}, {item2}, e {count, number, integer} outros",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "Perfil",
-  "UserTable.selectAllLabel": "Selecionar todos",
-  "UserTable.userCheckboxLabel": "Selecionar usuário"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

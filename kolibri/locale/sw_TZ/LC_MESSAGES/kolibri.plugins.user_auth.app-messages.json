@@ -15,6 +15,7 @@
   "CommonUserPageStrings.signInToFacilityLabel": "Ingia katika '{facility}'",
   "CommonUserPageStrings.signingInAsUserLabel": "Ingia kama '{user}'",
   "CommonUserPageStrings.signingInToFacilityAsUserLabel": "Ingia kwa '{facility}' kama '{user}'",
+  "CoreBanner.openButton": "Habari zaidi",
   "FacilitySelect.askAdminForAccountLabel": "Uliza msimamizi wako kuunda akaunti ya vifaa hivi:",
   "FacilitySelect.canSignUpForFacilityLabel": "Chagua kituo ambacho unataka kuhusisha akaunti yako mpya na:",
   "FacilitySelect.selectFacilityLabel": "Chagua kituo kilicho na akaunti yako",
@@ -23,7 +24,6 @@
   "SignInPage.changeUser": "Badili mtumiaji",
   "SignInPage.documentTitle": "Mtumiaji Kuingia",
   "SignInPage.incorrectPasswordError": "Nenosiri lisilo sahihi",
-  "SignInPage.incorrectUsernameError": "Jina la mtumizi lisilo sahihi",
   "SignInPage.nextLabel": "Inayofuata",
   "SignInPage.requiredForCoachesAdmins": "Nywila inahitajika kwa wakufunzi na wasimamizi",
   "SignUpPage.createAccount": "Tengeneza akaunti",
@@ -31,8 +31,6 @@
   "SignUpPage.demographicInfoOptional": "Kutoa habari hii ni hiari.",
   "SignUpPage.documentTitle": "Unda akaunti",
   "SignUpPage.privacyLinkText": "Jifunze zaidi kuhusu matumizi na faragha",
-  "UserIndex.signUpStep1Title": "Hatua 1 ya 2",
-  "UserIndex.signUpStep2Title": "Hatua 2 ya 2",
   "UserPageSnackbars.dismiss": "Funga",
   "UserPageSnackbars.signedOut": "Uliondolewa moja kwa moja kwa sababu ya kutotumia"
 }

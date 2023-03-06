@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "'{className}' में पाठकों को भर्ती करें",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { numFilteredUsers, number } का { visibleEndRange, number }",
   "GroupEnrollPage.previousResults": "पिछले परिणाम",
-  "GroupEnrollPage.searchForUser": "उपयोगकर्ता को ढूंढें",
   "GroupEnrollPage.userTableLabel": "उपयोगकर्ता सूची",
   "GroupMembersPage.back": "सभी समूह",
   "GroupMembersPage.enrollButton": "पाठकों की भर्ती",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "क्या आप सच में '{ title }' मिटाना चाहते हैं?",
   "ManageLessonModals.deleteLessonTitle": "पाठ मिटाएँ",
   "ManageLessonModals.uniqueTitleError": "'{className}' में '{title}' नाम का पाठ पहले से मौजूद है",
-  "MissingContentStrings.resourceNotFoundOnDevice": "डिवाइस पर संसाधन नहीं मिला",
-  "MissingContentStrings.resourcesUnavailableP1": "कुछ रिपोर्ट डेटा मौजूद नहीं है, इसलिए क्योंकि ऐसे संसाधन हैं जो डिवाइस पर नहीं पाए गए, या फिर इसलिए क्योंकि वे कोलिब्री के आपके संस्करण के साथ संगत नहीं हैं।",
-  "MissingContentStrings.resourcesUnavailableP2": "मार्गदर्शन के लिए अपने एडमिनिस्ट्रेटर से परामर्श करें, या सामग्री चैनलों को प्रबंधित करने के लिए उपकरण अनुमतियों वाले खाते का उपयोग करें।",
-  "MissingContentStrings.resourcesUnavailableTitle": "संसाधन अनुपलब्ध",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "कुछ संसाधन मौजूद नहीं हैं या समर्थित नहीं है",
   "MissingContentStrings.upgradeKolibriLinkText": "डाउनलोड पेज पर जाएं",
   "MissingContentStrings.upgradeKolibriP1": "कोलिब्री के इस संस्करण के द्वारा कुछ संसाधन समर्थित नहीं हैं। उन्हें देखने के लिए आपको अपग्रेड करना आवश्यक है।",
   "MissingContentStrings.upgradeKolibriTitle": "संसाधनों को देखने के लिए कोलिब्री अपग्रेड करें",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "सिंक्रनाइज़ हो रहा है",
   "SyncStatusDisplay.unableOrNotSynced": "हाल ही में सिंक्रनाइज़ नहीं किया गया है या सिंक्रनाइज़ करने में असमर्थ है",
   "SyncStatusDisplay.unableToSync": "सिंक्रनाइज़ करने में असफल",
-  "TopNavbar.plan": "योजना",
   "TruncatedItemList.manyItems": "{item1}, {item2}, और {count, number, integer} अन्य",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "भूमिका",
-  "UserTable.selectAllLabel": "सभी का चयन करें",
-  "UserTable.userCheckboxLabel": "उपयोगकर्ता चुनें"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

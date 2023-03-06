@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "'{className}' या वर्गात विद्यार्थ्यांची नोंदणी करा",
   "GroupEnrollPage.pagination": "{ numFilteredUsers, number } पैकी { visibleStartRange, number } - { visibleEndRange, number }",
   "GroupEnrollPage.previousResults": "मागील निकाल",
-  "GroupEnrollPage.searchForUser": "युझर शोधा",
   "GroupEnrollPage.userTableLabel": "युझर यादी",
   "GroupMembersPage.back": "सर्व गट",
   "GroupMembersPage.enrollButton": "विद्यार्थ्यांची नोंदणी करा",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "तुम्हाला '{ title }' नक्की काढून टाकायचे आहे का?",
   "ManageLessonModals.deleteLessonTitle": "धडा काढून टाका",
   "ManageLessonModals.uniqueTitleError": "'{title}' या नावाचा धडा '{className}' या वर्गात आधीपासून अस्तित्वात आहे",
-  "MissingContentStrings.resourceNotFoundOnDevice": "उपकरणावर संसाधन सापडले नाही",
-  "MissingContentStrings.resourcesUnavailableP1": "प्रगतीपत्रकातील काही माहिती सापडत नाही, कारण कदाचित काही संसाधने उपकरणावर सापडली नाहीत, किंवा ती आपल्या कोलिब्रीच्या आवृत्तीशी अनुरूप नाहीत.",
-  "MissingContentStrings.resourcesUnavailableP2": "मार्गदर्शनासाठी आपल्या प्रशासकाचा सल्ला घ्या किंवा ज्यावर वाहिन्या आणि संसाधनांचे व्यवस्थापन करण्याच्या परवानग्या आहेत अशा उपकरणावरील खात्याचा वापर करा.",
-  "MissingContentStrings.resourcesUnavailableTitle": "संसाधने अनुपलब्ध",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "काही संसाधने सापडत नाहीत किंवा यावर चालत नाहीत",
   "MissingContentStrings.upgradeKolibriLinkText": "डाऊनलोड पृष्ठावर परत जा",
   "MissingContentStrings.upgradeKolibriP1": "कोलिब्रीच्या या आवृत्तीवर काही संसाधने चालत नाहीत. ती पाहण्यासाठी आपल्याला पुढील आवृत्ती घ्यावी लागेल.",
   "MissingContentStrings.upgradeKolibriTitle": "संसाधने पाहण्यासाठी कोलिब्रीची पुढील आवृत्ती घ्या",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "सिंक होत आहे...",
   "SyncStatusDisplay.unableOrNotSynced": "इतक्यात सिंक झालेले नाही किंवा सिंक अयशस्वी",
   "SyncStatusDisplay.unableToSync": "सिंक होण्यास अक्षम",
-  "TopNavbar.plan": "नियोजन",
   "TruncatedItemList.manyItems": "{item1}, {item2}, आणि {count, number, integer} इतर",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "भूमिका",
-  "UserTable.selectAllLabel": "सर्व निवडा",
-  "UserTable.userCheckboxLabel": "युझर निवडा"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

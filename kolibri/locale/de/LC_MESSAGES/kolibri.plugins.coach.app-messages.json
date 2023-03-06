@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "Einschreiben der Lernenden in '{className}'",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } von { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "Vorherige Ergebnisse",
-  "GroupEnrollPage.searchForUser": "Nach einem Nutzer suchen",
   "GroupEnrollPage.userTableLabel": "Benutzerliste",
   "GroupMembersPage.back": "Alle Gruppen",
   "GroupMembersPage.enrollButton": "Lernende einschreiben",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "Soll '{ title }' wirklich gelöscht werden?",
   "ManageLessonModals.deleteLessonTitle": "Unterrichtseinheit löschen",
   "ManageLessonModals.uniqueTitleError": "Die Unterrichtseinheit '{title}' ist bereits in '{className}' vorhanden.",
-  "MissingContentStrings.resourceNotFoundOnDevice": "Material auf Gerät nicht gefunden",
-  "MissingContentStrings.resourcesUnavailableP1": "Einige Auswertungsdaten fehlen, entweder weil es Materialien gibt, die auf dem Gerät nicht gefunden wurden, oder weil sie mit Ihrer Version von Kolibri nicht kompatibel sind.",
-  "MissingContentStrings.resourcesUnavailableP2": "Wenden Sie sich an Ihren Administrator, um weitere Unterstützung zu erhalten. Oder verwenden Sie ein Konto mit Geräteberechtigungen, um Kanäle und Materialien zu verwalten.",
-  "MissingContentStrings.resourcesUnavailableTitle": "Materialien nicht verfügbar",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "Einige Materialien fehlen oder werden nicht unterstützt",
   "MissingContentStrings.upgradeKolibriLinkText": "Zur Download-Seite",
   "MissingContentStrings.upgradeKolibriP1": "Einige Materialien werden von dieser Version von Kolibri nicht unterstützt. Um sie anzuzeigen, muss möglicherweise eine Aktualisierung durchgeführt werden.",
   "MissingContentStrings.upgradeKolibriTitle": "Aktualisieren von Kolibri für die Anzeige von Materialien",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "Wird synchronisiert ...",
   "SyncStatusDisplay.unableOrNotSynced": "Nicht kürzlich synchronisiert oder kann nicht synchronisieren",
   "SyncStatusDisplay.unableToSync": "Kann nicht synchronisiert werden",
-  "TopNavbar.plan": "Planen",
   "TruncatedItemList.manyItems": "{item1}, {item2} und {count, number, integer} weitere(r)",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "Rolle",
-  "UserTable.selectAllLabel": "Alle auswählen",
-  "UserTable.userCheckboxLabel": "Nutzer auswählen"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

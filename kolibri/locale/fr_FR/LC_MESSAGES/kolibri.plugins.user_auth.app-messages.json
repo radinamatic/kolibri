@@ -7,7 +7,7 @@
   "AuthBase.poweredByKolibri": "Avec la technologie Kolibri / Créé avec Kolibri",
   "AuthBase.restrictedAccess": "L'accès à Kolibri a été restreint pour les appareils externes",
   "AuthBase.restrictedAccessDescription": "Pour changer cela, connectez-vous en tant que super-administrateur et mettez à jour les paramètres d'accès réseau des appareils",
-  "AuthBase.whatsThis": "Qu'est-ce que c'est ça?",
+  "AuthBase.whatsThis": "Qu'est-ce que c'est ça ?",
   "AuthSelect.newUserPrompt": "Êtes-vous un nouvel utilisateur ?",
   "CommonUserPageStrings.createAccountAction": "Créer un compte",
   "CommonUserPageStrings.goBackToHomeAction": "Aller sur la page d'accueil",
@@ -15,6 +15,7 @@
   "CommonUserPageStrings.signInToFacilityLabel": "Connectez-vous à \"{facility}\"",
   "CommonUserPageStrings.signingInAsUserLabel": "Connexion en tant que \"{user}\"",
   "CommonUserPageStrings.signingInToFacilityAsUserLabel": "Connexion à \"{facility}\" en tant que \"{user}\"",
+  "CoreBanner.openButton": "Plus d'infos",
   "FacilitySelect.askAdminForAccountLabel": "Demandez à votre administrateur de créer un compte pour ces établissements :",
   "FacilitySelect.canSignUpForFacilityLabel": "Sélectionnez l'établissement avec lequel vous souhaitez associer votre nouveau compte :",
   "FacilitySelect.selectFacilityLabel": "Sélectionnez l'établissement qui a votre compte",
@@ -23,7 +24,6 @@
   "SignInPage.changeUser": "Changer d'utilisateur",
   "SignInPage.documentTitle": "Connexion utilisateur",
   "SignInPage.incorrectPasswordError": "Mot de passe incorrect",
-  "SignInPage.incorrectUsernameError": "Nom d'utilisateur incorrect",
   "SignInPage.nextLabel": "Suivant",
   "SignInPage.requiredForCoachesAdmins": "Le mot de passe est requis pour les éducateurs et les administrateurs",
   "SignUpPage.createAccount": "Créer un compte",
@@ -31,8 +31,6 @@
   "SignUpPage.demographicInfoOptional": "Fournir cette information est facultatif.",
   "SignUpPage.documentTitle": "Créer un compte",
   "SignUpPage.privacyLinkText": "En savoir plus sur l'utilisation et la confidentialité",
-  "UserIndex.signUpStep1Title": "Étape 1 sur 2",
-  "UserIndex.signUpStep2Title": "Étape 2 sur 2",
   "UserPageSnackbars.dismiss": "Fermer",
   "UserPageSnackbars.signedOut": "Vous avez été automatiquement déconnecté pour cause d’inactivité"
 }

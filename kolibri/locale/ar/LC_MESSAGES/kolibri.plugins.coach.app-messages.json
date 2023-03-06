@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "إضافة المتعلمين إلى '{className}'",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } من { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "النتائج السابقة",
-  "GroupEnrollPage.searchForUser": "البحث عن مستخدم",
   "GroupEnrollPage.userTableLabel": "قائمة المستخدم",
   "GroupMembersPage.back": "كافة المجموعات",
   "GroupMembersPage.enrollButton": "إضافة المتعلّمين",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "هل أنت متأكد من رغبتك في حذف { title }؟",
   "ManageLessonModals.deleteLessonTitle": "حذف الدرس",
   "ManageLessonModals.uniqueTitleError": "يوجد بالفعل درس بعنوان '{title}' في '{className}'",
-  "MissingContentStrings.resourceNotFoundOnDevice": "مصدر غير موجود على الجهاز",
-  "MissingContentStrings.resourcesUnavailableP1": "بعض بيانات التقرير مفقودة، إما بسبب وجود مصادر لم يتم العثور عليها على الجهاز، أو لأنها غير متوافقة مع إصدار كوليبري الخاص بك.",
-  "MissingContentStrings.resourcesUnavailableP2": "قم بطلب المشورة من المسؤول عنك، للحصول على توجيهات، أو استخدم حساباً لديه أذونات الجهاز لإدارة القنوات والمصادر.",
-  "MissingContentStrings.resourcesUnavailableTitle": "مصادر غير متاحة",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "بعض المصادر مفقودة أو غير مدعومة",
   "MissingContentStrings.upgradeKolibriLinkText": "انتقل إلى صفحة التحميل",
   "MissingContentStrings.upgradeKolibriP1": "بعض الموارد غير مدعومة بهذا الإصدار من كوليبري. قد تحتاج إلى ترقية الإصدار لتتمكن من عرضها.",
   "MissingContentStrings.upgradeKolibriTitle": "ترقية إصدار كوليبري لعرض المصادر",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "تتم الآن عملية المزامنة...",
   "SyncStatusDisplay.unableOrNotSynced": "لم تتم مزامنته مؤخراً أو لا يمكن مزامنته",
   "SyncStatusDisplay.unableToSync": "تعذر إجراء المزامنة",
-  "TopNavbar.plan": "التخطيط لصفّك الدراسيّ",
   "TruncatedItemList.manyItems": "{item1}, {item2}, و {count, number, integer} أخرى",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "الدّور",
-  "UserTable.selectAllLabel": "تحديد الكل",
-  "UserTable.userCheckboxLabel": "اختر مستخدماً"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

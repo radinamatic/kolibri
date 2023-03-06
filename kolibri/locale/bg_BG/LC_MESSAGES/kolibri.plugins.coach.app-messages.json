@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "Запиши учениците в '{className} '",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } от { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "Предишни резултати",
-  "GroupEnrollPage.searchForUser": "Търсене на потребител",
   "GroupEnrollPage.userTableLabel": "Списък с потребители",
   "GroupMembersPage.back": "Всички групи",
   "GroupMembersPage.enrollButton": "Записване на ученици",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "Наистина ли искаш да изтриеш '{ title }'?",
   "ManageLessonModals.deleteLessonTitle": "Изтриване на урок",
   "ManageLessonModals.uniqueTitleError": "Урок със заглавие '{title}' вече съществува в '{className}'",
-  "MissingContentStrings.resourceNotFoundOnDevice": "Ресурсът не е намерен на устройството",
-  "MissingContentStrings.resourcesUnavailableP1": "Някои данни не са налични в отчета или защото има ресурси, които не са открити на устройството, или защото не са съвместими с тази версия на Колибри. ",
-  "MissingContentStrings.resourcesUnavailableP2": "Потърси администратора за насоки или използвай профил с разрешения за управляване на каналите и ресурсите.",
-  "MissingContentStrings.resourcesUnavailableTitle": "Няма налични ресурси",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "Част от ресурсите не са налични или не се поддържат",
   "MissingContentStrings.upgradeKolibriLinkText": "Към страницата за изтегляне",
   "MissingContentStrings.upgradeKolibriP1": "Част от ресурсите не се поддържат от тази версия на Колибри. Обнови версията, за да ги виждаш.",
   "MissingContentStrings.upgradeKolibriTitle": "Обнови Колибри, за да виждаш ресурсите",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "Синхронизиране...",
   "SyncStatusDisplay.unableOrNotSynced": "Не е синхронизирано скоро или не може да се синхронизира",
   "SyncStatusDisplay.unableToSync": "Не може да се синхронизира",
-  "TopNavbar.plan": "План",
   "TruncatedItemList.manyItems": "{item1}, {item2} и {count, number, integer} други",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "Роля",
-  "UserTable.selectAllLabel": "Избери всички",
-  "UserTable.userCheckboxLabel": "Избор на потребител"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

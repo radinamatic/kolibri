@@ -15,6 +15,7 @@
   "CommonUserPageStrings.signInToFacilityLabel": "Iniciar sessão em '{facility}'",
   "CommonUserPageStrings.signingInAsUserLabel": "Fazendo login como '{user}'",
   "CommonUserPageStrings.signingInToFacilityAsUserLabel": "Fazendo login no centro '{facility}' como usuário '{user}'",
+  "CoreBanner.openButton": "Mais informações",
   "FacilitySelect.askAdminForAccountLabel": "Peça ao administrador para lhe criar uma conta nesses centros educativos:",
   "FacilitySelect.canSignUpForFacilityLabel": "Selecione o centro educativo ao qual você deseja associar sua nova conta:",
   "FacilitySelect.selectFacilityLabel": "Selecione o centro educativo associado `a sua conta",
@@ -23,7 +24,6 @@
   "SignInPage.changeUser": "Selcionar outro usuário",
   "SignInPage.documentTitle": "Iniciar sessão",
   "SignInPage.incorrectPasswordError": "Senha incorreta",
-  "SignInPage.incorrectUsernameError": "Nome de usuário incorreto",
   "SignInPage.nextLabel": "Próximo",
   "SignInPage.requiredForCoachesAdmins": "Para fazer login como Professor ou Admin é preciso ter senha",
   "SignUpPage.createAccount": "Criar uma conta",
@@ -31,8 +31,6 @@
   "SignUpPage.demographicInfoOptional": "As informações abaixo são opcionais.",
   "SignUpPage.documentTitle": "Criar conta",
   "SignUpPage.privacyLinkText": "Saber mais sobre as políticas de uso e privacidade",
-  "UserIndex.signUpStep1Title": "Passo 1",
-  "UserIndex.signUpStep2Title": "Passo 2 de 2",
   "UserPageSnackbars.dismiss": "Fechar",
   "UserPageSnackbars.signedOut": "Devido à inatividade, sua sessão foi automaticamente encerrada"
 }

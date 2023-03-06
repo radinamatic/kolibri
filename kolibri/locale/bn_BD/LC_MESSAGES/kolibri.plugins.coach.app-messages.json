@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "শিক্ষার্থীদের '{className}' এ তালিকাভুক্ত করুন",
   "GroupEnrollPage.pagination": "{ numFilteredUsers, number } এর মধ্যে { visibleStartRange, number } - { visibleEndRange, number }",
   "GroupEnrollPage.previousResults": "আগের ফলাফল",
-  "GroupEnrollPage.searchForUser": "ব্যবহারকারী অনুসন্ধান করুন",
   "GroupEnrollPage.userTableLabel": "ব্যবহারকারীর তালিকা",
   "GroupMembersPage.back": "সব দল",
   "GroupMembersPage.enrollButton": "শিক্ষার্থীদের তালিকাভুক্ত করুন",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "আপনি কি নিশ্চিত যে '{ title }' মুছে ফেলতে চান?",
   "ManageLessonModals.deleteLessonTitle": "পাঠ মুছে ফেলুন",
   "ManageLessonModals.uniqueTitleError": "'{className}' এ ইতিমধ্যেই '{title}' নামের একটি পাঠ রয়েছে",
-  "MissingContentStrings.resourceNotFoundOnDevice": "ডিভাইসে উপকরণ খুঁজে পাওয়া যায় নি",
-  "MissingContentStrings.resourcesUnavailableP1": "প্রতিবেদন-বিষয়ক কিছু তথ্য পাওয়া যাচ্ছে না―হয় ডিভাইসে কিছু উপকরণ খুঁজে পাওয়া যায়নি বলে, নয়তো সেগুলি আপনার কলিব্রির বর্তমান সংস্করণের উপযোগী নয় বলে।",
-  "MissingContentStrings.resourcesUnavailableP2": "অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন, কিংবা চ্যানেল ও উপকরণ ব্যবস্থাপনার অনুমতি আছে এমন কোনো অ্যাকাউন্ট ব্যবহার করুন।",
-  "MissingContentStrings.resourcesUnavailableTitle": "উপকরণ পাওয়া যায় নি",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "কিছু উপকরণ পাওয়া যাচ্ছে না কিংবা ব্যবহারোপযোগী নয়",
   "MissingContentStrings.upgradeKolibriLinkText": "ডাউনলোডের পাতায় যান",
   "MissingContentStrings.upgradeKolibriP1": "কিছু উপকরণ কলিব্রির এই সংস্করণে ব্যবহারোযোগ্য নয়। সেগুলি দেখার জন্য আপগ্রেড করতে হতে পারে।",
   "MissingContentStrings.upgradeKolibriTitle": "উপকরণ দেখতে কলিব্রি আপগ্রেড করুন",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "সিঙ্ক করা হচ্ছে...",
   "SyncStatusDisplay.unableOrNotSynced": "সম্প্রতি সিঙ্ক করা হয় নি বা সিঙ্ক করা যাচ্ছে না",
   "SyncStatusDisplay.unableToSync": "সিঙ্ক করা যাচ্ছে না",
-  "TopNavbar.plan": "পরিকল্পনা",
   "TruncatedItemList.manyItems": "{item1}, {item2}, ও আরো {count, number, integer}টি",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "ভূমিকা",
-  "UserTable.selectAllLabel": "সব নির্বাচন করুন",
-  "UserTable.userCheckboxLabel": "ব্যবহারকারী নির্বাচন করুন"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }

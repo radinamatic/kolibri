@@ -1,7 +1,6 @@
 {
   "BottomBar.jumpToPositionInBook": "Ruka hadi nafasi katika kitabu",
   "BottomBar.preparingSlider": "Inaandaa slider",
-  "BottomBar.progress": "{progress, number, percent}",
   "LoadingError.couldNotLoadThisBook": "Haikuweza kupakia kitabu hiki",
   "LoadingScreen.loadingBook": "Inapakia kitabu",
   "NextButton.goToNextPage": "Nenda kwenye ukurasa unaofuata",

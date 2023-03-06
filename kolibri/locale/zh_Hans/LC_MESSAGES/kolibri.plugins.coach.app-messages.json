@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "将学习者加入 “{className}”",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } 页，共 { numFilteredUsers, number } 页",
   "GroupEnrollPage.previousResults": "前面的结果",
-  "GroupEnrollPage.searchForUser": "搜索用户",
   "GroupEnrollPage.userTableLabel": "用户列表",
   "GroupMembersPage.back": "所有组",
   "GroupMembersPage.enrollButton": "添加学习者",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "您确定要删除”{ title }”吗？",
   "ManageLessonModals.deleteLessonTitle": "删除课程",
   "ManageLessonModals.uniqueTitleError": "名为“{title}”的课程已存在于“{className}”",
-  "MissingContentStrings.resourceNotFoundOnDevice": "在设备上找不到资源",
-  "MissingContentStrings.resourcesUnavailableP1": "有些报告数据丢失，或者因为有些资源没有在设备上找到， 或者因为它们不兼容您的 Kolibri 版本。",
-  "MissingContentStrings.resourcesUnavailableP2": "请咨询您的管理员提供指导，或使用具有设备权限的帐户来管理频道和资源。",
-  "MissingContentStrings.resourcesUnavailableTitle": "资源不可用",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "缺少或不支持某些资源",
   "MissingContentStrings.upgradeKolibriLinkText": "转到下载页面",
   "MissingContentStrings.upgradeKolibriP1": "此版本的 Kolibri 不支持某些资源。您可能需要升级才能查看。",
   "MissingContentStrings.upgradeKolibriTitle": "升级 Kolibri 以查看资源",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "同步中...",
   "SyncStatusDisplay.unableOrNotSynced": "最近未同步或无法同步",
   "SyncStatusDisplay.unableToSync": "无法同步",
-  "TopNavbar.plan": "方案",
   "TruncatedItemList.manyItems": "{item1}，{item2}，和其他 {count, number, integer} 个",
   "TruncatedItemList.threeItems": "{item1}，{item2}，{item3}",
-  "TruncatedItemList.twoItems": "{item1}，{item2}",
-  "UserTable.role": "角色",
-  "UserTable.selectAllLabel": "选择全部",
-  "UserTable.userCheckboxLabel": "选择用户"
+  "TruncatedItemList.twoItems": "{item1}，{item2}"
 }

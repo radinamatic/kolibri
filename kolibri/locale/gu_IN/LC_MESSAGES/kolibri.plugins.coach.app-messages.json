@@ -164,7 +164,6 @@
   "GroupEnrollPage.pageHeader": "'{className}' માં ભરતી વાચકો",
   "GroupEnrollPage.pagination": "{ visibleStartRange, number } - { visibleEndRange, number } માંથી { numFilteredUsers, number }",
   "GroupEnrollPage.previousResults": "પાછલું પરિણામ",
-  "GroupEnrollPage.searchForUser": "વપરાશકર્તા શોધો",
   "GroupEnrollPage.userTableLabel": "વપરાશકર્તા યાદી",
   "GroupMembersPage.back": "બધા સમૂહો",
   "GroupMembersPage.enrollButton": "શીખનારાઓની ભરતી",
@@ -253,11 +252,6 @@
   "ManageLessonModals.deleteLessonConfirmation": "શું તમે ખરેખર '{ title }' ને કાઢી નાખવા માંગો છો?",
   "ManageLessonModals.deleteLessonTitle": "પાઠ કાઢી નાખો",
   "ManageLessonModals.uniqueTitleError": "'{title}' શીર્ષક ધરાવતો પાઠ '{className}' માં પહેલાથી જ અસ્તિત્વમાં છે",
-  "MissingContentStrings.resourceNotFoundOnDevice": "ઉપકરણ પર સ્ત્રોત મળ્યો નથી",
-  "MissingContentStrings.resourcesUnavailableP1": "કેટલાક રિપૉર્ટ ડેટા ખૂટે છે, તેનું કારણ એ છે કે એવા સ્ત્રોતો છે જે ઉપકરણ પર મળ્યા ન હતા, અથવા તે તમારા કોલિબ્રીના સંસ્કરણ સાથે સુસંગત નથી.",
-  "MissingContentStrings.resourcesUnavailableP2": "માર્ગદર્શન માટે તમારા સંચાલકની સલાહ લો અથવા ચેનલો અને સંસાધનોનું સંચાલન કરવા માટે ઉપકરણ પરવાનગીઓ સાથે ખાતાનો ઉપયોગ કરો.",
-  "MissingContentStrings.resourcesUnavailableTitle": "સ્ત્રોતો ઉપલબ્ધ નથી",
-  "MissingContentStrings.someResourcesMissingOrNotSupported": "કેટલાક સ્ત્રોતો ખૂટે છે અથવા સમર્થિત નથી",
   "MissingContentStrings.upgradeKolibriLinkText": "ડાઉનલૉડ પૃષ્ઠ પર જાવ",
   "MissingContentStrings.upgradeKolibriP1": "કેટલાક સ્ત્રોતો કોલિબ્રીના આ સંસ્કરણ દ્વારા સમર્થિત નથી. તેમને જોવા માટે તમારે અપગ્રેડ કરવાની જરૂર પડી શકે છે.",
   "MissingContentStrings.upgradeKolibriTitle": "સ્ત્રોતો જોવા માટે કોલિબ્રીને અપગ્રેડ કરો",
@@ -348,11 +342,7 @@
   "SyncStatusDisplay.syncing": "સમન્વય થઈ રહ્યો છે...",
   "SyncStatusDisplay.unableOrNotSynced": "તાજેતરમાં સમન્વય થયેલ નથી અથવા સમન્વય થવામાં અસમર્થ",
   "SyncStatusDisplay.unableToSync": "સિંક થઇ શકતું નથી",
-  "TopNavbar.plan": "યોજના",
   "TruncatedItemList.manyItems": "{item1}, {item2}, અને બીજા {count, number, integer}",
   "TruncatedItemList.threeItems": "{item1}, {item2}, {item3}",
-  "TruncatedItemList.twoItems": "{item1}, {item2}",
-  "UserTable.role": "ભૂમિકા",
-  "UserTable.selectAllLabel": "બધું પસંદ કરો",
-  "UserTable.userCheckboxLabel": "વપરાશકર્તા પસંદ કરો"
+  "TruncatedItemList.twoItems": "{item1}, {item2}"
 }
